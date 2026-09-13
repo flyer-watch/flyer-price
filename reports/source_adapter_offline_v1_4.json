@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "life_urls": true,
+    "comodi_urls": true,
+    "thumb_norm": true,
+    "reject_viewer": true,
+    "life_date": true,
+    "comodi_date": true
+  },
+  "life_original_url": [
+    "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9658688.jpg?1788770183="
+  ],
+  "comodi_original_urls": [
+    "https://chirashi-guide.com/chirashi-file/2026/09/56/56-comodi_0909_B3_A_base-1_1991509_0.jpg",
+    "https://chirashi-guide.com/chirashi-file/2026/09/56/56-comodi_0909_B3_B_base_2054840_0.jpg"
+  ],
+  "pass": true
+}

@@ -1,0 +1,53 @@
+FLYER vNext-20260913g SOURCE-ACCURACY / CONTINUOUS
+Final verification: 2026-09-13 JST
+
+Purpose
+- Continuously fetch the current flyer for each store and publish the products actually present in that flyer.
+- Product counts are observations only. They are NEVER release thresholds.
+- A future flyer may legitimately contain fewer products, more products, or zero single-day specials.
+
+Current verified snapshot
+- Life 64
+- OK 46
+- Comodi 31
+- Belx 164
+- Total 305
+- Current Belx 164 is retained and confirmed in canonical/publish/docs/Chromium DOM.
+
+Important policy correction
+- Removed Belx total>=60 and active>=20 release floors.
+- Removed all vNext per-store total/active minimum-count release floors.
+- Added regression proving that 1 total row and 0 active rows can pass when source evidence is valid.
+- Current Belx=164 remains a regression observation for THIS issue, not a future minimum.
+
+Source-accuracy gates
+- every published row requires source_url + source_image + source_fingerprint
+- positive税込price, nonblank product name, valid sale dates, no duplicate row key
+- current runtime rows must match the current source fingerprint
+- all discovered flyer pages must be processed
+- if fetched flyer pages contain price evidence but extraction collapses to zero products, update is rejected and prior public data is preserved
+- unresolved price evidence is reported for diagnostics; it is not converted into an arbitrary count floor
+- promotion remains transactional with rollback
+- canonical = publish = preview/data.js = docs/data.js = Chromium DOM
+
+Layout robustness
+- runtime extraction no longer assumes red prices only; hybrid OCR also looks for non-red/black numeric price anchors
+- no fixed product count is assumed for a layout
+- Belx discovery now prefers the Tokubai store page and falls back to Chirashi-Guide if required
+- same-URL image replacement is detected by downloaded image SHA256
+
+Distribution gate
+- Python syntax PASS
+- legacy v1.9 quick regression PASS
+- verified release restore PASS
+- fail-closed negative update PASS
+- source discovery fixture PASS
+- no-count-floor regression PASS
+- future issue switch + rollback regression PASS
+- final Chromium DOM PASS
+
+Current DOM
+- total 305
+- Life 64 / OK 46 / Comodi 31 / Belx 164
+
+The goal is source fidelity and continuous current-flyer retrieval, not satisfying a minimum product count.

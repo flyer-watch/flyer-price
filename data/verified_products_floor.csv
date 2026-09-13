@@ -1,0 +1,22 @@
+﻿store_id,chain,store_name,sale_start,sale_end,product_name,specification,price_ex_tax_yen,price_in_tax_yen,source_type,validation_status,inferred_tax_rate
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,米国産 豚肉ロース切身,100g当り,109,117,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,スターセレクト ロースハム4連／ハーフベーコン4連,34g×4／32g×4,259,279,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,長ねぎ（2本入）,1束,158,170,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,キャベツ,1玉,158,170,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,ナガノパープル（パック）,1パック,990,1069,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,甘熟王バナナ,1袋,208,224,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,エビチリソース,1パック,198,213,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,日本食研 トンテキの素,95g,179,193,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,ニッポンハム サラダチキン3連（ロースト／ハーブ）,各150g,259,279,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,明治 おいしい牛乳／おいしい低脂肪乳,各900ml,258,278,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,雪印メグミルク ナチュレ恵 ヨーグルト（プレーン／脂肪0）,各400g,159,171,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,フードレーベル 牛角キムチ,330g,258,278,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,伊藤園 香り薫るむぎ茶 ティーバッグ,54袋入,189,204,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,昭和 スパゲッティ 1.6mm／1.4mm,各1kg,199,214,local_training_ground_truth,verified,0.08
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,キッチンペーパー,80組(160枚)×3個パック,228,250,local_training_ground_truth,verified,0.1
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,P&G アリエールジェル 詰替超特大,625g,328,360,local_training_ground_truth,verified,0.1
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,【ベーカリー】ミニパン オ ショコラ,5個＋1個増量,220,237,tokubai_structured,verified,0.08
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,椎茸海老詰めフライ,5個＋1個増量,299,322,tokubai_structured,verified,0.08
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,解凍 紅鮭（甘口）利尻昆布だし入り,100g当たり,228,246,tokubai_structured,verified,0.08
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,スターゼン 輸入牛 ローストビーフスライス,80g,629,679,tokubai_structured,verified,0.08
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,【寿司】399ちらし 海鮮バラ,10カン,399,430,tokubai_structured,verified,0.08

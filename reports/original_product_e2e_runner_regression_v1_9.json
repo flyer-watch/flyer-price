@@ -1,0 +1,63 @@
+{
+  "version": "v1.9",
+  "checks": {
+    "positive_price_recall_1": true,
+    "positive_name_coverage_ge_90": true,
+    "positive_expected_name_similarity_23_of_24": true,
+    "negative_keeps_price_recall_1": true,
+    "negative_product_gate_fails": true,
+    "negative_name_coverage_below_threshold": true,
+    "generic_labels_do_not_pass": true
+  },
+  "positive": {
+    "price_recall": 1.0,
+    "name_coverage": 1.0,
+    "similarity_scores": [
+      63.888888888888886,
+      52.375,
+      59.375,
+      53.5,
+      60.656565656565654,
+      49.33333333333333,
+      63.888888888888886,
+      49.33333333333333,
+      48.888888888888886,
+      59.375,
+      64.45454545454545,
+      58.888888888888886,
+      59.375,
+      0.0,
+      70.45454545454545,
+      63.45454545454545,
+      54.03846153846153,
+      80.0,
+      69.70588235294117,
+      58.75,
+      67.08333333333334,
+      55.83333333333333,
+      52.25,
+      46.388888888888886
+    ],
+    "strong_count": 23
+  },
+  "negative": {
+    "price_recall": 1.0,
+    "name_coverage": 0.0,
+    "pass": false
+  },
+  "generic_label_controls": [
+    {
+      "id": "comodi_mixed_mock",
+      "pass_should_be_false": true,
+      "price_recall": 1.0,
+      "name_coverage": 0.13333333333333333
+    },
+    {
+      "id": "comodi_nested_mock",
+      "pass_should_be_false": true,
+      "price_recall": 1.0,
+      "name_coverage": 0.0
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,213 @@
+{
+  "passed": 18,
+  "total": 18,
+  "cases": [
+    {
+      "ocr": "スターセレクト ロースハム4連 259円",
+      "expected_name": "スターセレクト ロースハム4連",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "スターセレクト ロースハム4連",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "スターセレクト ロースハム3連 239円",
+      "expected_name": "スターセレクト ロースハム3連",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "スターセレクト ロースハム3連",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "ニッポンハム サラダチキン3連 ロースト",
+      "expected_name": "ニッポンハム サラダチキン3連",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "ニッポンハム サラダチキン3連",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "昭和 スパゲッティ 1.6mm 1kg",
+      "expected_name": "昭和 スパゲッティ 1.6mm",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "昭和 スパゲッティ 1.6mm",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "昭和 スパゲッティ 1.4mm 1kg",
+      "expected_name": "昭和 スパゲッティ 1.4mm",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "昭和 スパゲッティ 1.4mm",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "明治 おいしい牛乳 900ml 258円",
+      "expected_name": "明治 おいしい牛乳 900ml",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "明治 おいしい牛乳 900ml",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "キッチンペーパー80組160枚",
+      "expected_name": "キッチンペーパー 80組",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "キッチンペーパー 80組",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "アリエールジェル 詰替 625g",
+      "expected_name": "アリエールジェル 625g",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "アリエールジェル 625g",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "特売商品1 99円",
+      "expected_name": "特売商品1",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "特売商品1",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "特売商品2 99円",
+      "expected_name": "特売商品2",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "特売商品2",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "スターセレクト ロースハム5連 279円",
+      "expected_name": "スターセレクト ロースハム5連 279円",
+      "expected_status": "ocr_unverified",
+      "actual_name": "スターセレクト ロースハム5連 279円",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    },
+    {
+      "ocr": "昭和 スパゲッティ 1.8mm 1kg",
+      "expected_name": "昭和 スパゲッティ 1.8mm 1kg",
+      "expected_status": "ocr_unverified",
+      "actual_name": "昭和 スパゲッティ 1.8mm 1kg",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    },
+    {
+      "ocr": "明治 おいしい牛乳 700ml",
+      "expected_name": "明治 おいしい牛乳 700ml",
+      "expected_status": "ocr_unverified",
+      "actual_name": "明治 おいしい牛乳 700ml",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    },
+    {
+      "ocr": "特売商品3 199円",
+      "expected_name": "特売商品3 199円",
+      "expected_status": "ocr_unverified",
+      "actual_name": "特売商品3 199円",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    },
+    {
+      "ocr": "スターセレクト ロースハム 増量",
+      "expected_name": "スターセレクト ロースハム 増量",
+      "expected_status": "ocr_unverified",
+      "actual_name": "スターセレクト ロースハム 増量",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    },
+    {
+      "ocr": "昭和 スパゲッティ 太さタイプ",
+      "expected_name": "昭和 スパゲッティ 太さタイプ",
+      "expected_status": "ocr_unverified",
+      "actual_name": "昭和 スパゲッティ 太さタイプ",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    },
+    {
+      "ocr": "群馬県産 キャベツ 1玉 158円",
+      "expected_name": "キャベツ",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "キャベツ",
+      "actual_status": "dictionary_resolved",
+      "reason": "score_and_margin",
+      "pass": true
+    },
+    {
+      "ocr": "北海道産 新じゃがいも 1袋 198円",
+      "expected_name": "北海道産 新じゃがいも 1袋 198円",
+      "expected_status": "ocr_unverified",
+      "actual_name": "北海道産 新じゃがいも 1袋 198円",
+      "actual_status": "ocr_unverified",
+      "reason": "insufficient_score_or_margin",
+      "pass": true
+    }
+  ],
+  "reversal_extra_passed": 5,
+  "reversal_extra_total": 5,
+  "reversal_extra": [
+    {
+      "ocr": "ニッポンハム サラダチキン 連 3 ロースト",
+      "expected_name": "ニッポンハム サラダチキン3連",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "ニッポンハム サラダチキン3連",
+      "actual_status": "dictionary_resolved",
+      "pass": true
+    },
+    {
+      "ocr": "スターセレクト ロースハム 連 4",
+      "expected_name": "スターセレクト ロースハム4連",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "スターセレクト ロースハム4連",
+      "actual_status": "dictionary_resolved",
+      "pass": true
+    },
+    {
+      "ocr": "スターセレクト ロースハム 連 5",
+      "expected_name": "スターセレクト ロースハム 連 5",
+      "expected_status": "ocr_unverified",
+      "actual_name": "スターセレクト ロースハム 連 5",
+      "actual_status": "ocr_unverified",
+      "pass": true
+    },
+    {
+      "ocr": "昭和 スパゲッティ mm1.6",
+      "expected_name": "昭和 スパゲッティ 1.6mm",
+      "expected_status": "dictionary_resolved",
+      "actual_name": "昭和 スパゲッティ 1.6mm",
+      "actual_status": "dictionary_resolved",
+      "pass": true
+    },
+    {
+      "ocr": "昭和 スパゲッティ mm1.8",
+      "expected_name": "昭和 スパゲッティ mm1.8",
+      "expected_status": "ocr_unverified",
+      "actual_name": "昭和 スパゲッティ mm1.8",
+      "actual_status": "ocr_unverified",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

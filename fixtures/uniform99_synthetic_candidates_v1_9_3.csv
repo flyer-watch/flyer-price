@@ -1,0 +1,9 @@
+﻿store_id,chain,store_name,sale_start,sale_end,product_name,specification,price_ex_tax_yen,price_in_tax_yen,tax_rate,promotion,category,availability_rule,scope_level,source_type,validation_status
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,国産りんご,2個入,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,北海道牛乳,1000ml,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,絹ごし豆腐,3個入,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,熟成ロースハム,4枚入,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,冷凍えだまめ,250g,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,国産たまご,10個入,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,焼きちくわ,5本入,,,,,食品,,product_group_child,uniform99_synthetic,synthetic
+synthetic,SYNTH,合成テスト店,2026-09-09,2026-09-11,無糖ヨーグルト,400g,,,,,食品,,product_group_child,uniform99_synthetic,synthetic

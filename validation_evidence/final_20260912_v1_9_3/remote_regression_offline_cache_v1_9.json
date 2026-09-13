@@ -1,0 +1,388 @@
+{
+  "pass": true,
+  "offline_cache_only": true,
+  "detector_version": "hybrid-price-v1.9.2",
+  "groups": [
+    {
+      "id": "life_0909",
+      "expected_anchors": 25,
+      "detected_prices": 897,
+      "matched": 23,
+      "recall": 0.92,
+      "threshold": 0.8,
+      "pass": true,
+      "candidate_density_pass": true,
+      "errors": [],
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/dd0208cd55644c8317c8.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/099a7f433eef11edb4d3.jpg"
+      ],
+      "images": [
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/dd0208cd55644c8317c8.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/dd0208cd55644c8317c8.json",
+          "broad_anchor_count": 506,
+          "association_anchor_count": 10,
+          "candidate_density_per_mp": 44.986,
+          "density_limit": 80.0,
+          "density_pass": true,
+          "observations": [
+            {
+              "target_height": 900,
+              "mode": "jpn",
+              "token_count": 390,
+              "status": "ok"
+            },
+            {
+              "target_height": 1500,
+              "mode": "digits",
+              "token_count": 287,
+              "status": "ok"
+            },
+            {
+              "target_height": 1000,
+              "mode": "digits_tiled",
+              "token_count": 376,
+              "tiles": 4
+            }
+          ],
+          "anchor_cache_hit": true
+        },
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/099a7f433eef11edb4d3.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/099a7f433eef11edb4d3.json",
+          "broad_anchor_count": 391,
+          "association_anchor_count": 28,
+          "candidate_density_per_mp": 34.762,
+          "density_limit": 80.0,
+          "density_pass": true,
+          "observations": [
+            {
+              "target_height": 900,
+              "mode": "jpn",
+              "token_count": 379,
+              "status": "ok"
+            },
+            {
+              "target_height": 1500,
+              "mode": "digits",
+              "token_count": 223,
+              "status": "ok"
+            },
+            {
+              "target_height": 1000,
+              "mode": "digits_tiled",
+              "token_count": 284,
+              "tiles": 4
+            }
+          ],
+          "anchor_cache_hit": true
+        }
+      ],
+      "unmatched_detection_sample": [
+        108,
+        242,
+        27,
+        70,
+        407,
+        700,
+        4000,
+        4070,
+        729,
+        7295,
+        177,
+        295,
+        772,
+        959,
+        5177,
+        1582,
+        909,
+        72,
+        58,
+        83,
+        5805,
+        98,
+        2798,
+        94,
+        100,
+        801,
+        262,
+        265,
+        626,
+        62
+      ]
+    },
+    {
+      "id": "life_0912",
+      "expected_anchors": 36,
+      "detected_prices": 1300,
+      "matched": 33,
+      "recall": 0.9166666666666666,
+      "threshold": 0.7,
+      "pass": true,
+      "candidate_density_pass": true,
+      "errors": [],
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/e30a242f248b50e5f0f3.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/abb0949e11a5f2d78ca6.jpg"
+      ],
+      "images": [
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/e30a242f248b50e5f0f3.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/e30a242f248b50e5f0f3.json",
+          "broad_anchor_count": 449,
+          "association_anchor_count": 19,
+          "candidate_density_per_mp": 40.118,
+          "density_limit": 80.0,
+          "density_pass": true,
+          "observations": [
+            {
+              "target_height": 900,
+              "mode": "jpn",
+              "token_count": 277,
+              "status": "ok"
+            },
+            {
+              "target_height": 1500,
+              "mode": "digits",
+              "token_count": 237,
+              "status": "ok"
+            },
+            {
+              "target_height": 1000,
+              "mode": "digits_tiled",
+              "token_count": 301,
+              "tiles": 4
+            }
+          ],
+          "anchor_cache_hit": true
+        },
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/abb0949e11a5f2d78ca6.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/abb0949e11a5f2d78ca6.json",
+          "broad_anchor_count": 851,
+          "association_anchor_count": 18,
+          "candidate_density_per_mp": 76.036,
+          "density_limit": 80.0,
+          "density_pass": true,
+          "observations": [
+            {
+              "target_height": 900,
+              "mode": "jpn",
+              "token_count": 203,
+              "status": "ok"
+            },
+            {
+              "target_height": 1500,
+              "mode": "digits",
+              "token_count": 445,
+              "status": "ok"
+            },
+            {
+              "target_height": 1000,
+              "mode": "digits_tiled",
+              "token_count": 576,
+              "tiles": 4
+            }
+          ],
+          "anchor_cache_hit": true
+        }
+      ],
+      "unmatched_detection_sample": [
+        55,
+        52,
+        9128,
+        38,
+        180,
+        9124,
+        24,
+        138,
+        235,
+        359,
+        382,
+        823,
+        913,
+        225,
+        322,
+        593,
+        932,
+        477,
+        720,
+        772,
+        7720,
+        497,
+        549,
+        770,
+        977,
+        9770,
+        2985,
+        2298,
+        218,
+        232
+      ]
+    },
+    {
+      "id": "ok_0907",
+      "expected_anchors": 40,
+      "detected_prices": 47,
+      "matched": 34,
+      "recall": 0.85,
+      "threshold": 0.65,
+      "pass": true,
+      "candidate_density_pass": true,
+      "errors": [],
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/5b5a513970be83e84534.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/67ce40d4d4c1e74bc9da.jpg"
+      ],
+      "images": [
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/5b5a513970be83e84534.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/5b5a513970be83e84534.json",
+          "broad_anchor_count": 22,
+          "association_anchor_count": 22,
+          "candidate_density_per_mp": 1.96,
+          "density_limit": 40.0,
+          "density_pass": true,
+          "observations": [],
+          "anchor_cache_hit": true
+        },
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/67ce40d4d4c1e74bc9da.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/67ce40d4d4c1e74bc9da.json",
+          "broad_anchor_count": 25,
+          "association_anchor_count": 25,
+          "candidate_density_per_mp": 2.227,
+          "density_limit": 40.0,
+          "density_pass": true,
+          "observations": [],
+          "anchor_cache_hit": true
+        }
+      ],
+      "unmatched_detection_sample": [
+        388,
+        971,
+        349,
+        73,
+        611,
+        388,
+        872,
+        214,
+        193,
+        446,
+        499,
+        96,
+        178
+      ]
+    },
+    {
+      "id": "comodi_0909",
+      "expected_anchors": 46,
+      "detected_prices": 695,
+      "matched": 39,
+      "recall": 0.8478260869565217,
+      "threshold": 0.65,
+      "pass": true,
+      "candidate_density_pass": true,
+      "errors": [],
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/d11cafcf7489a6373ded.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/254d15dbab291c67133c.jpg"
+      ],
+      "images": [
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/d11cafcf7489a6373ded.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/d11cafcf7489a6373ded.json",
+          "broad_anchor_count": 219,
+          "association_anchor_count": 16,
+          "candidate_density_per_mp": 38.303,
+          "density_limit": 100.0,
+          "density_pass": true,
+          "observations": [
+            {
+              "target_height": 900,
+              "mode": "jpn",
+              "token_count": 204,
+              "status": "ok"
+            },
+            {
+              "target_height": 1500,
+              "mode": "digits",
+              "token_count": 130,
+              "status": "ok"
+            },
+            {
+              "target_height": 900,
+              "mode": "digits_tiled",
+              "token_count": 186,
+              "tiles": 4
+            }
+          ],
+          "anchor_cache_hit": true
+        },
+        {
+          "cache_file": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/254d15dbab291c67133c.jpg",
+          "anchor_cache": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/254d15dbab291c67133c.json",
+          "broad_anchor_count": 476,
+          "association_anchor_count": 17,
+          "candidate_density_per_mp": 83.497,
+          "density_limit": 100.0,
+          "density_pass": true,
+          "observations": [
+            {
+              "target_height": 900,
+              "mode": "jpn",
+              "token_count": 201,
+              "status": "ok"
+            },
+            {
+              "target_height": 1500,
+              "mode": "digits",
+              "token_count": 260,
+              "status": "ok"
+            },
+            {
+              "target_height": 900,
+              "mode": "digits_tiled",
+              "token_count": 360,
+              "tiles": 4
+            }
+          ],
+          "anchor_cache_hit": true
+        }
+      ],
+      "unmatched_detection_sample": [
+        179,
+        904,
+        71,
+        9112,
+        112,
+        295,
+        511,
+        951,
+        117,
+        22,
+        312,
+        87,
+        712,
+        93,
+        110,
+        910,
+        911,
+        930,
+        993,
+        160,
+        30,
+        1254,
+        1509,
+        100,
+        27,
+        97,
+        302,
+        3025,
+        51,
+        1271
+      ]
+    }
+  ]
+}

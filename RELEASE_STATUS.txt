@@ -1,0 +1,19 @@
+APPROVED_FOR_CODEX_UPLOAD
+Version: vNext-20260913g SOURCE-ACCURACY / CONTINUOUS
+
+Current published snapshot after upload:
+- Life 64
+- OK 46
+- Comodi 31
+- Belx 164
+- Total 305
+
+These counts are descriptive only. There are NO per-store total-count or active-count release floors.
+A future current flyer is accepted based on source/provenance/data integrity, not on how many products it contains.
+
+Belx runtime source:
+- primary: Tokubai スーパーベルクス 板橋中台店
+- fallback: Chirashi-Guide
+- all discovered flyer pages are fetched and fingerprinted by content SHA256
+
+Runtime update is fail-closed on source/integrity failures and transactional on promotion.

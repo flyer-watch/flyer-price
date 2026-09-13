@@ -1,0 +1,5 @@
+THIRD PARTY IMAGE POLICY
+- Life / OK / Comodi / Belxの原チラシ画像はruntime検証・抽出にのみ使用する。
+- Codex用配布ZIPおよびGit repositoryへ第三者原画像バイナリを同梱しない。
+- data/remote_cache/ と data/runtime_cache/ は.gitignore対象。
+- 最終Gate reportは画像そのものではなく検証結果・source URL・fingerprint/hash等の監査情報を保持する。

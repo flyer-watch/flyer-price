@@ -1,0 +1,9 @@
+beautifulsoup4>=4.12
+numpy>=2.0
+opencv-python-headless>=4.10
+pandas>=2.2
+pytesseract>=0.3.13
+rapidfuzz>=3.9
+requests>=2.32
+playwright>=1.50
+Pillow>=10.0

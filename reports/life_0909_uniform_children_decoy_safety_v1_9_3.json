@@ -1,0 +1,10 @@
+{
+  "version": "v1.9.3",
+  "expected_count": 8,
+  "decoy_count": 8,
+  "expected_resolved": 8,
+  "missing_expected": [],
+  "false_positive_decoys": [],
+  "elapsed_sec": 13.85,
+  "pass": true
+}

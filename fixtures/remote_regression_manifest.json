@@ -1,0 +1,306 @@
+{
+  "version": "2026-09-11-current",
+  "price_rule": "floor_decimals",
+  "groups": [
+    {
+      "id": "life_0909",
+      "store_id": "life_hikawadai",
+      "sale_start": "2026-09-08",
+      "sale_end": "2026-09-11",
+      "images": [
+        {
+          "url": "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9658688.jpg?1788770183=",
+          "referer": "https://tokubai.co.jp/%E3%83%A9%E3%82%A4%E3%83%95/124065/leaflets/105449509"
+        },
+        {
+          "url": "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9658689.jpg?1788770229=",
+          "referer": "https://tokubai.co.jp/%E3%83%A9%E3%82%A4%E3%83%95/124065/leaflets/105449744"
+        }
+      ],
+      "anchor_prices": [
+        99,
+        198,
+        798,
+        189,
+        580,
+        358,
+        458,
+        109,
+        259,
+        158,
+        990,
+        208,
+        179,
+        258,
+        159,
+        199,
+        228,
+        328,
+        398,
+        750,
+        1100,
+        380,
+        2780,
+        2880,
+        500
+      ],
+      "minimum_recall": 0.8,
+      "source_verified": "web_original_image",
+      "price_detector": {
+        "mode": "hybrid_ocr",
+        "include_red": false,
+        "jpn_heights": [
+          900
+        ],
+        "digit_heights": [
+          1500
+        ],
+        "otsu_digit_heights": [],
+        "min_token_height_ratio": 0.01,
+        "max_concat_digits": 8,
+        "association_min_height_ratio": 0.008,
+        "association_min_confidence": 10,
+        "max_candidate_density_per_mp": 80,
+        "name_ocr_height": 900,
+        "tiled_digit_height": 1000,
+        "tile_rows": 2,
+        "tile_cols": 2,
+        "tile_overlap": 0.06,
+        "tile_min_token_height_ratio": 0.008
+      }
+    },
+    {
+      "id": "life_0912",
+      "store_id": "life_hikawadai",
+      "sale_start": "2026-09-11",
+      "sale_end": "2026-09-14",
+      "images": [
+        {
+          "url": "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9658704.jpg?1788770742=",
+          "referer": "https://tokubai.co.jp/%E3%83%A9%E3%82%A4%E3%83%95/124065/leaflets/105450331"
+        },
+        {
+          "url": "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9658705.jpg?1788770742=",
+          "referer": "https://tokubai.co.jp/%E3%83%A9%E3%82%A4%E3%83%95/124065/leaflets/105450334"
+        }
+      ],
+      "anchor_prices": [
+        980,
+        798,
+        398,
+        480,
+        999,
+        880,
+        550,
+        259,
+        390,
+        699,
+        459,
+        499,
+        348,
+        228,
+        198,
+        290,
+        298,
+        498,
+        188,
+        59,
+        890,
+        289,
+        279,
+        499,
+        748,
+        798,
+        598,
+        109,
+        380,
+        158,
+        298,
+        199,
+        438,
+        880,
+        348,
+        580
+      ],
+      "minimum_recall": 0.7,
+      "source_verified": "web_original_image",
+      "price_detector": {
+        "mode": "hybrid_ocr",
+        "include_red": false,
+        "jpn_heights": [
+          900
+        ],
+        "digit_heights": [
+          1500
+        ],
+        "otsu_digit_heights": [],
+        "min_token_height_ratio": 0.01,
+        "max_concat_digits": 8,
+        "association_min_height_ratio": 0.008,
+        "association_min_confidence": 10,
+        "max_candidate_density_per_mp": 80,
+        "name_ocr_height": 900,
+        "tiled_digit_height": 1000,
+        "tile_rows": 2,
+        "tile_cols": 2,
+        "tile_overlap": 0.06,
+        "tile_min_token_height_ratio": 0.008
+      }
+    },
+    {
+      "id": "ok_0907",
+      "store_id": "ok_kamiitabashi",
+      "sale_start": "2026-09-07",
+      "sale_end": "2026-09-13",
+      "images": [
+        {
+          "url": "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9648105.jpg?1788477987=",
+          "referer": "https://tokubai.co.jp/%E3%82%AA%E3%83%BC%E3%82%B1%E3%83%BC/230806/leaflets/105311282"
+        },
+        {
+          "url": "https://image.tokubai.co.jp/images/bargain_office_leaflets/o%3Dtrue/9648106.jpg?1788478022=",
+          "referer": "https://tokubai.co.jp/%E3%82%AA%E3%83%BC%E3%82%B1%E3%83%BC/230806/leaflets/105311448"
+        }
+      ],
+      "anchor_prices": [
+        220,
+        299,
+        228,
+        629,
+        399,
+        563,
+        190,
+        87,
+        291,
+        349,
+        564,
+        310,
+        873,
+        155,
+        194,
+        241,
+        222,
+        164,
+        88,
+        105,
+        96,
+        370,
+        378,
+        178,
+        598,
+        291,
+        128,
+        234,
+        194,
+        299,
+        290,
+        164,
+        113,
+        135,
+        310,
+        99,
+        1380,
+        158,
+        1320,
+        540
+      ],
+      "minimum_recall": 0.65,
+      "source_verified": "tokubai_structured_plus_web_visual",
+      "price_detector": {
+        "mode": "red_only",
+        "include_red": true,
+        "max_candidate_density_per_mp": 40,
+        "name_ocr_height": 700,
+        "tiled_digit_height": 0
+      }
+    },
+    {
+      "id": "comodi_0909",
+      "store_id": "comodi_sakuragawa",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "images": [
+        {
+          "url": "https://chirashi-guide.com/chirashi-file/2026/09/56/56-comodi_0909_B3_A_base-1_1991509_0.jpg",
+          "referer": "https://chirashi-guide.com/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%BF%E6%A9%8B%E5%8C%BA/2443/"
+        },
+        {
+          "url": "https://chirashi-guide.com/chirashi-file/2026/09/56/56-comodi_0909_B3_B_base_2054840_0.jpg",
+          "referer": "https://chirashi-guide.com/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%BF%E6%A9%8B%E5%8C%BA/2443/"
+        }
+      ],
+      "anchor_prices": [
+        105,
+        99,
+        299,
+        199,
+        85,
+        79,
+        398,
+        149,
+        490,
+        198,
+        148,
+        98,
+        158,
+        159,
+        109,
+        128,
+        178,
+        280,
+        399,
+        500,
+        555,
+        999,
+        699,
+        298,
+        218,
+        299,
+        79,
+        198,
+        280,
+        500,
+        380,
+        128,
+        108,
+        478,
+        138,
+        499,
+        249,
+        248,
+        428,
+        188,
+        448,
+        368,
+        358,
+        459,
+        89,
+        580
+      ],
+      "minimum_recall": 0.65,
+      "source_verified": "web_original_image",
+      "price_detector": {
+        "mode": "hybrid_ocr",
+        "include_red": false,
+        "jpn_heights": [
+          900
+        ],
+        "digit_heights": [
+          1500
+        ],
+        "otsu_digit_heights": [],
+        "min_token_height_ratio": 0.01,
+        "max_concat_digits": 8,
+        "association_min_height_ratio": 0.008,
+        "association_min_confidence": 10,
+        "max_candidate_density_per_mp": 100,
+        "name_ocr_height": 900,
+        "tiled_digit_height": 900,
+        "tile_rows": 2,
+        "tile_cols": 2,
+        "tile_overlap": 0.06,
+        "tile_min_token_height_ratio": 0.008
+      }
+    }
+  ]
+}

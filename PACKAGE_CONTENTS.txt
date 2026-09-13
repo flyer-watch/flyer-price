@@ -1,0 +1,14 @@
+vNext-20260913g SOURCE-ACCURACY / CONTINUOUS Codex package
+- 4-store current verified public baseline (305 rows)
+- Current Belx baseline: 164 source-verified rows rendered by website DOM
+- NO per-store total/active product-count release floors
+- continuous source discovery / content fingerprinting
+- Tokubai primary + Chirashi-Guide fallback for Belx
+- current issue manifest
+- layout-adaptive runtime OCR (red + non-red price evidence)
+- source/provenance/integrity runtime gate
+- transactional promotion including issue manifest
+- no-count-floor regression
+- future issue regression for all 4 stores
+- hourly GitHub Actions update check
+- no third-party original flyer binaries in distribution ZIP

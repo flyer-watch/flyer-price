@@ -1,0 +1,208 @@
+{
+  "version": "v1.9.3",
+  "input_image": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/fixtures/uniform99_synthetic_v1_9_3.png",
+  "candidate_metadata_source": "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/fixtures/uniform99_synthetic_candidates_v1_9_3.csv",
+  "candidate_price_fields_used_for_detection": false,
+  "parent": {
+    "value": 99,
+    "digits": [
+      "9",
+      "9"
+    ],
+    "confidence": 0.96,
+    "status": "common_price_detected",
+    "scope_level": "product_group",
+    "price_role": "parent_common_price",
+    "components": [
+      {
+        "bbox": [
+          488,
+          831,
+          700,
+          1147
+        ],
+        "digit": "9",
+        "rank": [
+          [
+            "9",
+            0.0
+          ]
+        ]
+      },
+      {
+        "bbox": [
+          938,
+          831,
+          1150,
+          1147
+        ],
+        "digit": "9",
+        "rank": [
+          [
+            "9",
+            0.0
+          ]
+        ]
+      }
+    ]
+  },
+  "parent_pass": true,
+  "expected_children": 8,
+  "resolved_children": 8,
+  "missing_children": [],
+  "children_pass": true,
+  "output_rows_before_policy": 8,
+  "output_rows_after_policy": 8,
+  "duplicate_count": 0,
+  "all_prices_99_ex_106_in": true,
+  "all_sale_periods_2026_09_09_to_09_11": true,
+  "output_policy_pass": true,
+  "elapsed_sec": 15.2,
+  "pass": true,
+  "rows": [
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "国産りんご",
+      "specification": "2個入",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "北海道牛乳",
+      "specification": "1000ml",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "絹ごし豆腐",
+      "specification": "3個入",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "熟成ロースハム",
+      "specification": "4枚入",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "冷凍えだまめ",
+      "specification": "250g",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "国産たまご",
+      "specification": "10個入",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "焼きちくわ",
+      "specification": "5本入",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    },
+    {
+      "store_id": "synthetic",
+      "chain": "SYNTH",
+      "store_name": "合成テスト店",
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "product_name": "無糖ヨーグルト",
+      "specification": "400g",
+      "price_ex_tax_yen": 99,
+      "price_in_tax_yen": 106,
+      "tax_rate": 0.08,
+      "promotion": "均一本体価格99円",
+      "category": "食品",
+      "availability_rule": "",
+      "scope_level": "product_group_child",
+      "source_type": "uniform99_e2e_detected",
+      "validation_status": "detected"
+    }
+  ]
+}

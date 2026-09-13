@@ -1,0 +1,25 @@
+{
+  "version": "v1.9",
+  "stores": [
+    "life_hikawadai",
+    "ok_kamiitabashi"
+  ],
+  "date_test": [
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11"
+  ],
+  "checks": {
+    "node_available_and_date_utils_runs": true,
+    "jst_safe_date_sequence": true,
+    "date_utils_loaded_before_app": true,
+    "stores_are_data_driven": true,
+    "no_empty_store_tab_source": true,
+    "meta_v1_9": true,
+    "docs_files_match_preview": true,
+    "row_count_49": true,
+    "all_prices_integer_positive": true,
+    "no_household_category": true
+  },
+  "pass": true
+}

@@ -1,0 +1,16 @@
+{
+  "version": "v1.9.3",
+  "pass": false,
+  "github_release_ready": false,
+  "failed_step": "local_functional_regressions",
+  "steps": [
+    {
+      "step": "local_functional_regressions",
+      "pass": false,
+      "returncode": 1,
+      "seconds": 16.76,
+      "stdout_tail": "{\"step\": \"python_syntax\", \"pass\": true, \"seconds\": 1.7}\n{\"step\": \"source_provenance_regression\", \"pass\": true, \"seconds\": 2.34}\n{\"step\": \"recognition_fingerprint_regression\", \"pass\": false, \"seconds\": 1.49}\n{\"step\": \"output_policy\", \"pass\": true, \"seconds\": 1.54}\n{\"step\": \"build_preview_docs\", \"pass\": true, \"seconds\": 1.46}\n{\"step\": \"remote_manifest_dry\", \"pass\": true, \"seconds\": 1.57}\n{\"step\": \"remote_cache_inventory\", \"pass\": true, \"seconds\": 3.34}\n{\"step\": \"preview_docs_ui\", \"pass\": true, \"seconds\": 1.77}\n{\"step\": \"life_0909_uniform_e2e_current\", \"pass\": true, \"seconds\": 0.0}\n{\"step\": \"life_0909_decoy_safety_current\", \"pass\": true, \"seconds\": 0.0}\n{\"step\": \"product_association_positive_negative_current\", \"pass\": true, \"seconds\": 0.0}\n{\"version\": \"v1.9.3\", \"mode\": \"quick\", \"local_regression_pass\": false, \"steps\": 11}\n",
+      "stderr_tail": ""
+    }
+  ]
+}

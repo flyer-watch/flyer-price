@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "id": "ok_numeric_mock",
+      "images": [
+        {
+          "url": "http://127.0.0.1:55679/synthetic_ok_numeric_variants.jpg",
+          "referer": ""
+        }
+      ],
+      "anchor_prices": [
+        239,
+        259,
+        229,
+        259,
+        199,
+        219,
+        188,
+        258
+      ],
+      "minimum_recall": 1.0
+    }
+  ]
+}

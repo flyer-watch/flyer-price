@@ -1,0 +1,48 @@
+{
+  "version": "v1.9",
+  "pass": true,
+  "github_release_ready": true,
+  "failed_step": null,
+  "steps": [
+    {
+      "step": "local_functional_regressions",
+      "pass": true,
+      "returncode": 0,
+      "seconds": 8.66,
+      "stdout_tail": "{\"step\": \"python_syntax\", \"pass\": true, \"seconds\": 0.71}\n{\"step\": \"source_provenance_regression\", \"pass\": true, \"seconds\": 1.39}\n{\"step\": \"recognition_fingerprint_regression\", \"pass\": true, \"seconds\": 0.77}\n{\"step\": \"output_policy\", \"pass\": true, \"seconds\": 0.83}\n{\"step\": \"build_preview_docs\", \"pass\": true, \"seconds\": 0.77}\n{\"step\": \"remote_manifest_dry\", \"pass\": true, \"seconds\": 0.9}\n{\"step\": \"remote_cache_inventory\", \"pass\": true, \"seconds\": 1.72}\n{\"step\": \"preview_docs_ui\", \"pass\": true, \"seconds\": 0.85}\n{\"step\": \"life_0909_uniform_e2e_current\", \"pass\": true, \"seconds\": 0.0}\n{\"step\": \"life_0909_decoy_safety_current\", \"pass\": true, \"seconds\": 0.0}\n{\"step\": \"product_association_positive_negative_current\", \"pass\": true, \"seconds\": 0.0}\n{\"version\": \"v1.9.3\", \"mode\": \"quick\", \"local_regression_pass\": true, \"steps\": 11}\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "verify_source_provenance",
+      "pass": true,
+      "returncode": 0,
+      "seconds": 1.38,
+      "stdout_tail": "{\"pass\": true, \"status\": \"provenance_valid\", \"required_count\": 8, \"valid_count\": 8}\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "original_price_anchor_regression",
+      "pass": true,
+      "returncode": 0,
+      "seconds": 1.38,
+      "stdout_tail": "/data/remote_cache/d11cafcf7489a6373ded.jpg\",\n          \"anchor_cache\": \"/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/d11cafcf7489a6373ded.json\",\n          \"broad_anchor_count\": 219,\n          \"association_anchor_count\": 16,\n          \"candidate_density_per_mp\": 38.303,\n          \"density_limit\": 100.0,\n          \"density_pass\": true,\n          \"observations\": [\n            {\n              \"target_height\": 900,\n              \"mode\": \"jpn\",\n              \"token_count\": 204,\n              \"status\": \"ok\"\n            },\n            {\n              \"target_height\": 1500,\n              \"mode\": \"digits\",\n              \"token_count\": 130,\n              \"status\": \"ok\"\n            },\n            {\n              \"target_height\": 900,\n              \"mode\": \"digits_tiled\",\n              \"token_count\": 186,\n              \"tiles\": 4\n            }\n          ],\n          \"anchor_cache_hit\": true\n        },\n        {\n          \"cache_file\": \"/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/254d15dbab291c67133c.jpg\",\n          \"anchor_cache\": \"/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/anchor_cache/254d15dbab291c67133c.json\",\n          \"broad_anchor_count\": 476,\n          \"association_anchor_count\": 17,\n          \"candidate_density_per_mp\": 83.497,\n          \"density_limit\": 100.0,\n          \"density_pass\": true,\n          \"observations\": [\n            {\n              \"target_height\": 900,\n              \"mode\": \"jpn\",\n              \"token_count\": 201,\n              \"status\": \"ok\"\n            },\n            {\n              \"target_height\": 1500,\n              \"mode\": \"digits\",\n              \"token_count\": 260,\n              \"status\": \"ok\"\n            },\n            {\n              \"target_height\": 900,\n              \"mode\": \"digits_tiled\",\n              \"token_count\": 360,\n              \"tiles\": 4\n            }\n          ],\n          \"anchor_cache_hit\": true\n        }\n      ],\n      \"unmatched_detection_sample\": [\n        179,\n        904,\n        71,\n        9112,\n        112,\n        295,\n        511,\n        951,\n        117,\n        22,\n        312,\n        87,\n        712,\n        93,\n        110,\n        910,\n        911,\n        930,\n        993,\n        160,\n        30,\n        1254,\n        1509,\n        100,\n        27,\n        97,\n        302,\n        3025,\n        51,\n        1271\n      ]\n    }\n  ]\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "original_product_e2e",
+      "pass": true,
+      "returncode": 0,
+      "seconds": 12.12,
+      "stdout_tail": "{\"pass\": true, \"groups\": [{\"id\": \"life_0909\", \"pass\": true, \"price_recall\": 0.92, \"name_coverage\": 0.631578947368421, \"assoc\": 38}, {\"id\": \"life_0912\", \"pass\": true, \"price_recall\": 0.9166666666666666, \"name_coverage\": 0.7027027027027027, \"assoc\": 37}, {\"id\": \"ok_0907\", \"pass\": true, \"price_recall\": 0.85, \"name_coverage\": 0.9361702127659575, \"assoc\": 47}, {\"id\": \"comodi_0909\", \"pass\": true, \"price_recall\": 0.8478260869565217, \"name_coverage\": 0.6363636363636364, \"assoc\": 33}]}\n",
+      "stderr_tail": ""
+    },
+    {
+      "step": "release_gate",
+      "pass": true,
+      "returncode": 0,
+      "seconds": 1.63,
+      "stdout_tail": "{\"functional_regression_pass\": true, \"github_release_ready\": true, \"blocking_reasons\": [], \"core_delta_from_v1_7\": [\"generic_price_detector.py\"]}\n",
+      "stderr_tail": ""
+    }
+  ]
+}

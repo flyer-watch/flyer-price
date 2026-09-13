@@ -1,0 +1,521 @@
+{
+  "simple_passed": 17,
+  "simple_total": 17,
+  "simple_cases": [
+    {
+      "text": "9/9(水)限り",
+      "expected": [
+        "single_date_limited",
+        "2026-09-09",
+        "2026-09-09",
+        ""
+      ],
+      "actual": [
+        "single_date_limited",
+        "2026-09-09",
+        "2026-09-09",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "single_date_limited",
+          "start_date": "2026-09-09",
+          "end_date": "2026-09-09",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/9(水)限り",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/10(木)限り",
+      "expected": [
+        "single_date_limited",
+        "2026-09-10",
+        "2026-09-10",
+        ""
+      ],
+      "actual": [
+        "single_date_limited",
+        "2026-09-10",
+        "2026-09-10",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "single_date_limited",
+          "start_date": "2026-09-10",
+          "end_date": "2026-09-10",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/10(木)限り",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/9〜11限り",
+      "expected": [
+        "date_range",
+        "2026-09-09",
+        "2026-09-11",
+        ""
+      ],
+      "actual": [
+        "date_range",
+        "2026-09-09",
+        "2026-09-11",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "date_range",
+          "start_date": "2026-09-09",
+          "end_date": "2026-09-11",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/9〜11限り",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/9より販売",
+      "expected": [
+        "start_date_only",
+        "2026-09-09",
+        "",
+        ""
+      ],
+      "actual": [
+        "start_date_only",
+        "2026-09-09",
+        "",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "start_date_only",
+          "start_date": "2026-09-09",
+          "end_date": "",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/9より販売",
+          "confidence": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/12(土)・13(日)",
+      "expected": [
+        "date_pair",
+        "2026-09-12",
+        "2026-09-13",
+        ""
+      ],
+      "actual": [
+        "date_pair",
+        "2026-09-12",
+        "2026-09-13",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "date_pair",
+          "start_date": "2026-09-12",
+          "end_date": "2026-09-13",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/12(土)・13(日)",
+          "confidence": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/12(土)・13(日) 2日間限り",
+      "expected": [
+        "date_pair",
+        "2026-09-12",
+        "2026-09-13",
+        ""
+      ],
+      "actual": [
+        "date_pair",
+        "2026-09-12",
+        "2026-09-13",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "date_pair",
+          "start_date": "2026-09-12",
+          "end_date": "2026-09-13",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/12(土)・13(日) 2日間限り",
+          "confidence": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "土9/12限り",
+      "expected": [
+        "single_date_limited",
+        "2026-09-12",
+        "2026-09-12",
+        ""
+      ],
+      "actual": [
+        "single_date_limited",
+        "2026-09-12",
+        "2026-09-12",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "single_date_limited",
+          "start_date": "2026-09-12",
+          "end_date": "2026-09-12",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "土9/12限り",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/13(日)限り",
+      "expected": [
+        "single_date_limited",
+        "2026-09-13",
+        "2026-09-13",
+        ""
+      ],
+      "actual": [
+        "single_date_limited",
+        "2026-09-13",
+        "2026-09-13",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "single_date_limited",
+          "start_date": "2026-09-13",
+          "end_date": "2026-09-13",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/13(日)限り",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/12(土)〜14(月)",
+      "expected": [
+        "date_range",
+        "2026-09-12",
+        "2026-09-14",
+        ""
+      ],
+      "actual": [
+        "date_range",
+        "2026-09-12",
+        "2026-09-14",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "date_range",
+          "start_date": "2026-09-12",
+          "end_date": "2026-09-14",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/12(土)〜14(月)",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/9(水)～9/11(金)",
+      "expected": [
+        "date_range",
+        "2026-09-09",
+        "2026-09-11",
+        ""
+      ],
+      "actual": [
+        "date_range",
+        "2026-09-09",
+        "2026-09-11",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "date_range",
+          "start_date": "2026-09-09",
+          "end_date": "2026-09-11",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/9(水)～9/11(金)",
+          "confidence": 0.99
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "9/9(水)より販売",
+      "expected": [
+        "start_date_only",
+        "2026-09-09",
+        "",
+        ""
+      ],
+      "actual": [
+        "start_date_only",
+        "2026-09-09",
+        "",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "start_date_only",
+          "start_date": "2026-09-09",
+          "end_date": "",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "9/9(水)より販売",
+          "confidence": 0.98
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "月9/14",
+      "expected": [
+        "single_date",
+        "2026-09-14",
+        "2026-09-14",
+        ""
+      ],
+      "actual": [
+        "single_date",
+        "2026-09-14",
+        "2026-09-14",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "single_date",
+          "start_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "月9/14",
+          "confidence": 0.94
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "火9/15",
+      "expected": [
+        "single_date",
+        "2026-09-15",
+        "2026-09-15",
+        ""
+      ],
+      "actual": [
+        "single_date",
+        "2026-09-15",
+        "2026-09-15",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "single_date",
+          "start_date": "2026-09-15",
+          "end_date": "2026-09-15",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "火9/15",
+          "confidence": 0.94
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "11時から",
+      "expected": [
+        "time_start",
+        "",
+        "",
+        "11:00"
+      ],
+      "actual": [
+        "time_start",
+        "",
+        "",
+        "11:00"
+      ],
+      "parsed": [
+        {
+          "rule_type": "time_start",
+          "start_date": "",
+          "end_date": "",
+          "time_start": "11:00",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "11時から",
+          "confidence": 0.95
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "夕方4時から",
+      "expected": [
+        "time_start",
+        "",
+        "",
+        "16:00"
+      ],
+      "actual": [
+        "time_start",
+        "",
+        "",
+        "16:00"
+      ],
+      "parsed": [
+        {
+          "rule_type": "time_start",
+          "start_date": "",
+          "end_date": "",
+          "time_start": "16:00",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "夕方4時から",
+          "confidence": 0.96
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "毎週火曜日",
+      "expected": [
+        "recurring_weekday",
+        "",
+        "",
+        ""
+      ],
+      "actual": [
+        "recurring_weekday",
+        "",
+        "",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "recurring_weekday",
+          "start_date": "",
+          "end_date": "",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "火",
+          "raw_text": "毎週火曜日",
+          "confidence": 0.93
+        }
+      ],
+      "pass": true
+    },
+    {
+      "text": "本日限り",
+      "expected": [
+        "relative_today",
+        "",
+        "",
+        ""
+      ],
+      "actual": [
+        "relative_today",
+        "",
+        "",
+        ""
+      ],
+      "parsed": [
+        {
+          "rule_type": "relative_today",
+          "start_date": "",
+          "end_date": "",
+          "time_start": "",
+          "time_end": "",
+          "weekday": "",
+          "raw_text": "本日限り",
+          "confidence": 0.9
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "composite_date_time": {
+    "resolved": {
+      "sale_start": "2026-09-12",
+      "sale_end": "2026-09-13",
+      "time_start": "11:00",
+      "time_end": "",
+      "weekday": "",
+      "availability_rule": "",
+      "date_source": "date_pair"
+    },
+    "pass": true
+  },
+  "start_date_parent_end": {
+    "resolved": {
+      "sale_start": "2026-09-09",
+      "sale_end": "2026-09-11",
+      "time_start": "",
+      "time_end": "",
+      "weekday": "",
+      "availability_rule": "",
+      "date_source": "start_date_only"
+    },
+    "pass": true
+  },
+  "explicit_date_outside_parent": {
+    "resolved": {
+      "sale_start": "2026-09-15",
+      "sale_end": "2026-09-15",
+      "time_start": "",
+      "time_end": "",
+      "weekday": "",
+      "availability_rule": "",
+      "date_source": "single_date"
+    },
+    "pass": true
+  },
+  "passed": 20,
+  "total": 20,
+  "rate": 1.0
+}

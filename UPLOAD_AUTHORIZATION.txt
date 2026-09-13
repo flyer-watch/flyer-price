@@ -1,0 +1,5 @@
+UPLOAD AUTHORIZED
+Release: vNext-20260913g SOURCE-ACCURACY / CONTINUOUS
+Condition: python src/run_distribution_gates.py must PASS before push.
+Codex role: repository overwrite + gate + commit/push only. No development.
+Critical policy: product counts are descriptive only; do not add minimum total/active count gates.

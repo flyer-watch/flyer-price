@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "status": "missing_provenance",
+  "provenance_path": "/mnt/data/flyer_f_fix/data/remote_cache/source_provenance.json",
+  "required_count": 8,
+  "valid_count": 0,
+  "items": []
+}

@@ -1,0 +1,30 @@
+{
+  "version": "v1.9",
+  "checks": {
+    "current_matches_v1_9_baseline": true,
+    "single_core_change_detected": true
+  },
+  "positive": {
+    "pass": true,
+    "status": "recognition_source_matches_baseline",
+    "baseline_version": "v1.9",
+    "fingerprint_path": "/mnt/data/flyer_f_fix/fixtures/recognition_source_fingerprint_v1_9.json",
+    "file_count": 15,
+    "changed": [],
+    "missing": [],
+    "unexpected": []
+  },
+  "negative": {
+    "pass": false,
+    "status": "recognition_source_differs_from_baseline",
+    "baseline_version": "v1.9",
+    "fingerprint_path": "/mnt/data/flyer_f_fix/fixtures/recognition_source_fingerprint_v1_9.json",
+    "file_count": 15,
+    "changed": [
+      "generic_price_detector.py"
+    ],
+    "missing": [],
+    "unexpected": []
+  },
+  "pass": true
+}

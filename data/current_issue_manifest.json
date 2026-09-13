@@ -1,0 +1,64 @@
+{
+  "version": "current-issue-manifest-v2",
+  "as_of_jst": "2026-09-13",
+  "gate_mode": "release",
+  "groups": [
+    {
+      "id": "life",
+      "store_id": "life_hikawadai",
+      "chain": "ライフ",
+      "store_name": "氷川台店",
+      "page_url": "https://tokubai.co.jp/%E3%83%A9%E3%82%A4%E3%83%95/124065",
+      "sale_start": "2026-09-12",
+      "sale_end": "2026-09-14",
+      "images": [],
+      "fingerprint": ""
+    },
+    {
+      "id": "ok",
+      "store_id": "ok_kamiitabashi",
+      "chain": "オーケー",
+      "store_name": "上板橋店",
+      "page_url": "https://tokubai.co.jp/%E3%82%AA%E3%83%BC%E3%82%B1%E3%83%BC/230806",
+      "sale_start": "2026-09-07",
+      "sale_end": "2026-09-13",
+      "images": [],
+      "fingerprint": ""
+    },
+    {
+      "id": "comodi",
+      "store_id": "comodi_sakuragawa",
+      "chain": "コモディイイダ",
+      "store_name": "食彩館桜川店",
+      "page_url": "https://chirashi-guide.com/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%BF%E6%A9%8B%E5%8C%BA/2443/",
+      "sale_start": "2026-09-12",
+      "sale_end": "2026-09-15",
+      "images": [],
+      "fingerprint": ""
+    },
+    {
+      "id": "belx",
+      "store_id": "belx_itabashi_nakadai",
+      "chain": "スーパーベルクス",
+      "store_name": "板橋中台店",
+      "page_url": "https://chirashi-guide.com/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%9D%BF%E6%A9%8B%E5%8C%BA/32429/",
+      "sale_start": "2026-09-12",
+      "sale_end": "2026-09-18",
+      "images": [
+        "https://chirashi-guide.com/chirashi-file/2026/09/351/351-1_15968215_0.jpg",
+        "https://chirashi-guide.com/chirashi-file/2026/09/351/351-1_15968215_1.jpg"
+      ],
+      "fingerprint": "0734c360f2636be1d133188aa9b73d31265d64bda735d4b58d6e1bf1f089c47f"
+    }
+  ],
+  "date_buttons": [
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18"
+  ],
+  "extraction": {}
+}

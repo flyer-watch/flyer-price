@@ -1,0 +1,54 @@
+﻿store_id,chain,store_name,sale_start,sale_end,product_name,specification,price_ex_tax_yen,price_in_tax_yen,tax_rate,promotion,category,availability_rule,scope_level,source_type,validation_status
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,真あじ開干（小）,1枚,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,やりいか切身（解凍・加熱用）,100g当り,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,洗いもずく,110g,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,中国産大粒あさり（解凍・加熱用）,100g当り,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,海鮮ハンバーグ（いわし・まぐろ）,各1個,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,オーシャンキング（生食用）,100g当り,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,からふとししゃも（オス）,100g当り,99,106,0.08,均一本体価格99円,鮮魚,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,米国産豚肉ロースこま切れ,100g当り／ジャンボパック限定,99,106,0.08,均一本体価格99円,精肉,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,国内産若どりむね挽肉（解凍品）,100g当り／ファミリーパック限定,99,106,0.08,均一本体価格99円,精肉,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,国内産 若どりささみ,100g当り,99,106,0.08,均一本体価格99円,精肉,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,国内産 若どりチキンカツレツ（ガーリックバター風）,100g当り,99,106,0.08,均一本体価格99円,精肉,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,日清 麺職人（醤油／味噌）,醤油87g・味噌97g,99,106,0.08,均一本体価格99円,加工食品,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,日清 デカうま 焼そば,153g,99,106,0.08,均一本体価格99円,加工食品,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,ネスカフェ エクセラボトルコーヒー（無糖／甘さひかえめ）,各900ml,99,106,0.08,均一本体価格99円,加工食品,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,ピーマン,1袋／岩手・福島産など,99,106,0.08,均一本体価格99円,青果,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,さつまいも（Mサイズ）,1本／千葉・茨城産など,99,106,0.08,均一本体価格99円,青果,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,キウイフルーツ（サンゴールド）,1コ／ニュージーランド産,99,106,0.08,均一本体価格99円,青果,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,アボカド（小玉）,1コ／ペルー産など,99,106,0.08,均一本体価格99円,青果,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,国産大豆使用 絹厚揚げ・木綿厚揚げ,各4枚入,99,106,0.08,均一本体価格99円,デイリーフーズ,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-11,明治 エッセル スーパーカップ 超バニラ,1コ,99,106,0.08,均一本体価格99円,アイス,,product_group_child,uniform99_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-09,ブロッコリー,1株／北海道・長野産など,198,213,0.08,,青果,,product,daily_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-09,シャインマスカット（パック）,1パック／福岡・島根産など,798,861,0.08,,青果,,product,daily_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-09,やみつき！ポテトフライ（コンソメ）,100g当り,189,204,0.08,,惣菜,,product,daily_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-09,海鮮4点刺身盛合せ,1パック,580,626,0.08,,鮮魚,,product,daily_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-09,長く使える1.5倍巻 コンパクトロール,シングル90m×8ロール,358,393,0.1,,日用品,,product,daily_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-09,2026-09-09,ライオン システマ ハグキプラス ハミガキ,90g,458,503,0.1,,日用品,,product,daily_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,米国産 豚肉ロース切身,100g当り,109,117,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,スターセレクト ロースハム4連／ハーフベーコン4連,34g×4／32g×4,259,279,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,長ねぎ（2本入）,1束,158,170,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,キャベツ,1玉,158,170,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,ナガノパープル（パック）,1パック,990,1069,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,甘熟王バナナ,1袋,208,224,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,エビチリソース,1パック,198,213,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,日本食研 トンテキの素,95g,179,193,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,ニッポンハム サラダチキン3連（ロースト／ハーブ）,各150g,259,279,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,明治 おいしい牛乳／おいしい低脂肪乳,各900ml,258,278,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,雪印メグミルク ナチュレ恵 ヨーグルト（プレーン／脂肪0）,各400g,159,171,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,フードレーベル 牛角キムチ,330g,258,278,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,伊藤園 香り薫るむぎ茶 ティーバッグ,54袋入,189,204,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,昭和 スパゲッティ 1.6mm／1.4mm,各1kg,199,214,0.08,,,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,キッチンペーパー,80組(160枚)×3個パック,228,250,0.1,,日用品,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-10,2026-09-10,P&G アリエールジェル 詰替超特大,625g,328,360,0.1,,日用品,,product,daily_verified_training,verified
+life_hikawadai,ライフ,氷川台店,2026-09-11,2026-09-11,お刺身よりどりセール,組合せ自由,398,429,0.08,"1パック各398円／よりどり2パック750円（税込810円）／よりどり3パック1,100円（税込1,188円）",鮮魚,,product_group,visible_group_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-11,2026-09-11,豚肉肩ロースブロック（輸入豚使用）,100g当り,159,171,0.08,,精肉,,product,visible_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-11,2026-09-11,ライフプレミアム 枝豆 ～おひさまの香り～,1袋,380,410,0.08,,青果,,product,visible_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-11,2026-09-11,宮城県産 特別栽培米 ひとめぼれ,5kg,2780,3002,0.08,,米,,product,visible_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-11,2026-09-11,宮城県産 無洗米特別栽培米 ひとめぼれ,5kg,2880,3110,0.08,,米,,product,visible_verified,verified
+life_hikawadai,ライフ,氷川台店,2026-09-11,2026-09-11,アサヒ カルピス（和梨／白／完熟巨峰）,各470ml,258,278,0.08,各1本258円／よりどり2本500円（税込540円）,飲料,,product_group,visible_verified,verified
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,【ベーカリー】ミニパン オ ショコラ,5個＋1個増量,220,237,0.08,,,,product,tokubai_structured,verified_structured
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,椎茸海老詰めフライ,5個＋1個増量,299,322,0.08,,,,product,tokubai_structured,verified_structured
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,解凍 紅鮭（甘口）利尻昆布だし入り,100g当たり,228,246,0.08,,,,product,tokubai_structured,verified_structured
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,スターゼン 輸入牛 ローストビーフスライス,80g,629,679,0.08,,,,product,tokubai_structured,verified_structured
+ok_kamiitabashi,オーケー,上板橋店,2026-09-07,2026-09-13,【寿司】399ちらし 海鮮バラ,10カン,399,430,0.08,,,,product,tokubai_structured,verified_structured

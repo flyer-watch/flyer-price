@@ -1,0 +1,30 @@
+CODEX UPLOAD ONLY — vNext-20260913g SOURCE-ACCURACY / CONTINUOUS
+
+このZIPは開発済み成果物です。Codexは新規開発や件数調整をしないでください。
+
+目的:
+- 各店舗の「現在のチラシ」を継続的にWebから取得し、実際に掲載されている価格付き商品を公開する。
+- 商品件数は結果であり、Release条件ではない。
+- Belx 164件は今回号の検証済み実績値で、将来号の最低件数ではない。
+
+実行手順:
+1. 既存 flyer-price repository をcheckoutする。
+2. .git を保持したまま、このZIP内容をrepository rootへ全体上書きする。
+3. python src/run_distribution_gates.py を実行する。
+4. PASSを確認する。
+5. git diffを確認する。特に:
+   - src/vnext_common.py に件数floorが存在しない
+   - src/runtime_gate.py がsource evidence/provenanceで判定する
+   - src/run_no_count_floor_regression.py がPASSする
+   - src/source_discovery.py のBelx primaryがTokubai、fallbackがChirashi-Guide
+   - data/products.csv / docs/data.js にBelx 164件が存在する
+6. PASS後のみcommit/pushする。
+7. GitHub Pages反映後、実公開ページでBelx店舗タブが164件を読めることを確認する。
+
+禁止:
+- Belx >=60 / 当日>=20 等の件数条件を復活させる
+- 件数を満たすため商品を捏造・水増しする
+- 1日限定品が少ないことだけを理由に更新を拒否する
+- Gate FAIL時に勝手に閾値を下げる
+
+新号更新時は、原画像取得・fingerprint・provenance・商品名/価格/販売期間の妥当性を優先する。

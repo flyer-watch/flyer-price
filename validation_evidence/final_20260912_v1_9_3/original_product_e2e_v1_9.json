@@ -1,0 +1,3243 @@
+{
+  "version": "v1.9",
+  "detector_version": "hybrid-price-v1.9.2",
+  "pass": true,
+  "groups": [
+    {
+      "id": "life_0909",
+      "pass": true,
+      "status": "original_product_association_ran",
+      "detector_version": "hybrid-price-v1.9.2",
+      "price_recall": 0.92,
+      "price_threshold": 0.8,
+      "expected_anchor_count": 25,
+      "detected_anchor_count": 897,
+      "matched_anchor_count": 23,
+      "association_anchor_count": 38,
+      "name_association_count": 24,
+      "name_association_total": 38,
+      "name_coverage": 0.631578947368421,
+      "name_coverage_threshold": 0.55,
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/dd0208cd55644c8317c8.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/099a7f433eef11edb4d3.jpg"
+      ],
+      "images": [
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 506,
+          "association_anchor_count": 10,
+          "name_token_count": 290,
+          "name_hits": 7
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 391,
+          "association_anchor_count": 28,
+          "name_token_count": 248,
+          "name_hits": 17
+        }
+      ],
+      "local_fallback_enabled": false,
+      "unmatched_detection_sample": [
+        108,
+        242,
+        27,
+        70,
+        407,
+        700,
+        4000,
+        4070,
+        729,
+        7295,
+        177,
+        295,
+        772,
+        959,
+        5177,
+        1582,
+        909,
+        72,
+        58,
+        83,
+        5805,
+        98,
+        2798,
+        94,
+        100,
+        801,
+        262,
+        265,
+        626,
+        62
+      ],
+      "association_sample": [
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 99,
+          "bbox": [
+            209,
+            703,
+            312,
+            778
+          ],
+          "cell": [
+            0,
+            0,
+            4000,
+            780
+          ],
+          "name_text": "直 動 で スタ 7k osag 毎日 BE て We ンプ REED た スタ",
+          "name_evidence": "直動でスタkosag毎日BEてWeンプREEDたスタ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 2750,
+          "bbox": [
+            2390,
+            1475,
+            2500,
+            1512
+          ],
+          "cell": [
+            0,
+            780,
+            4000,
+            1514
+          ],
+          "name_text": "キ ンカ hao awe: リラ の na Eire nae, ルコ Ser eos fees ‘ago",
+          "name_evidence": "キンカhaoaweリラのnaEirenaeルコSereosfeesago",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 596,
+          "bbox": [
+            2175,
+            2246,
+            2321,
+            2381
+          ],
+          "cell": [
+            0,
+            1514,
+            2422,
+            2383
+          ],
+          "name_text": "Ded As Ei A 会 ee 会 We a i も て B at",
+          "name_evidence": "DedAsEiA会ee会WeaiもてBat",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 90,
+          "bbox": [
+            2528,
+            2278,
+            2665,
+            2340
+          ],
+          "cell": [
+            2422,
+            1514,
+            2827,
+            2383
+          ],
+          "name_text": "et",
+          "name_evidence": "et",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 490,
+          "bbox": [
+            3006,
+            2303,
+            3109,
+            2340
+          ],
+          "cell": [
+            2827,
+            1514,
+            3195,
+            2383
+          ],
+          "name_text": "Cy ne",
+          "name_evidence": "Cyne",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 59,
+          "bbox": [
+            3287,
+            2287,
+            3381,
+            2331
+          ],
+          "cell": [
+            3195,
+            1514,
+            3465,
+            2383
+          ],
+          "name_text": "i rit oo Fs",
+          "name_evidence": "iritooFs",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 80,
+          "bbox": [
+            3552,
+            2290,
+            3643,
+            2337
+          ],
+          "cell": [
+            3465,
+            1514,
+            3721,
+            2383
+          ],
+          "name_text": "OS oan tid hie By",
+          "name_evidence": "OSoantidhieBy",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 98,
+          "bbox": [
+            3809,
+            2306,
+            3881,
+            2343
+          ],
+          "cell": [
+            3721,
+            1514,
+            4000,
+            2383
+          ],
+          "name_text": "5p",
+          "name_evidence": "p",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 1995,
+          "bbox": [
+            2431,
+            2537,
+            2503,
+            2571
+          ],
+          "cell": [
+            0,
+            2383,
+            3149,
+            2812
+          ],
+          "name_text": "の (Ey, Le ep rie oie の し 大 あみ: are が Ps タチ",
+          "name_evidence": "のEyLeeprieoieのし大あみareがPsタチ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "dd0208cd55644c8317c8.jpg",
+          "price": 2985,
+          "bbox": [
+            3781,
+            2534,
+            3881,
+            2568
+          ],
+          "cell": [
+            3149,
+            2383,
+            4000,
+            2812
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 6911,
+          "bbox": [
+            3690,
+            222,
+            3890,
+            319
+          ],
+          "cell": [
+            0,
+            0,
+            4000,
+            321
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 279,
+          "bbox": [
+            981,
+            600,
+            1115,
+            625
+          ],
+          "cell": [
+            0,
+            321,
+            1550,
+            668
+          ],
+          "name_text": "ro penn ai on \\Z Be",
+          "name_evidence": "ropennaionZBe",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 2248,
+          "bbox": [
+            1978,
+            622,
+            2128,
+            666
+          ],
+          "cell": [
+            1550,
+            321,
+            2265,
+            668
+          ],
+          "name_text": "tt i ta",
+          "name_evidence": "ttita",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 80,
+          "bbox": [
+            2434,
+            456,
+            2521,
+            500
+          ],
+          "cell": [
+            2265,
+            321,
+            4000,
+            668
+          ],
+          "name_text": "Lc",
+          "name_evidence": "Lc",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 39,
+          "bbox": [
+            1600,
+            756,
+            1684,
+            812
+          ],
+          "cell": [
+            0,
+            668,
+            4000,
+            814
+          ],
+          "name_text": "Pi ドコ me961m Pan ee",
+          "name_evidence": "PiドコmemPanee",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 2794,
+          "bbox": [
+            466,
+            969,
+            715,
+            1019
+          ],
+          "cell": [
+            0,
+            814,
+            821,
+            1133
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 3239,
+          "bbox": [
+            975,
+            984,
+            1131,
+            1031
+          ],
+          "cell": [
+            821,
+            814,
+            1365,
+            1133
+          ],
+          "name_text": "kin A ened teen)",
+          "name_evidence": "kinAenedteen",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 290,
+          "bbox": [
+            1600,
+            1040,
+            1756,
+            1097
+          ],
+          "cell": [
+            1365,
+            814,
+            1688,
+            1133
+          ],
+          "name_text": "cea へ",
+          "name_evidence": "ceaへ",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 313,
+          "bbox": [
+            1665,
+            1106,
+            1731,
+            1131
+          ],
+          "cell": [
+            1688,
+            814,
+            4000,
+            1133
+          ],
+          "name_text": "ee EE Hg Sm AASB. an ロ on rae 8S) 家計 応援 noe) D4",
+          "name_evidence": "eeEEHgSmAASBanロonraeS家計応援noeD",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 199,
+          "bbox": [
+            378,
+            1237,
+            472,
+            1284
+          ],
+          "cell": [
+            0,
+            1133,
+            1058,
+            1408
+          ],
+          "name_text": "時 や Onn) 回 ei 人 に",
+          "name_evidence": "時やOnn回ei人に",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 2338,
+          "bbox": [
+            1603,
+            1228,
+            1781,
+            1281
+          ],
+          "cell": [
+            1058,
+            1133,
+            1692,
+            1408
+          ],
+          "name_text": "ERR) じき",
+          "name_evidence": "ERRじき",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 365,
+          "bbox": [
+            1603,
+            1265,
+            1781,
+            1312
+          ],
+          "cell": [
+            1692,
+            1133,
+            1814,
+            1408
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 55,
+          "bbox": [
+            1903,
+            1356,
+            1972,
+            1406
+          ],
+          "cell": [
+            1814,
+            1133,
+            2195,
+            1408
+          ],
+          "name_text": "ti ba",
+          "name_evidence": "tiba",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 3985,
+          "bbox": [
+            2393,
+            1234,
+            2515,
+            1278
+          ],
+          "cell": [
+            2195,
+            1133,
+            4000,
+            1408
+          ],
+          "name_text": "日",
+          "name_evidence": "日",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 2198,
+          "bbox": [
+            1247,
+            1572,
+            1406,
+            1618
+          ],
+          "cell": [
+            0,
+            1408,
+            4000,
+            1620
+          ],
+          "name_text": "フェ ア 新 商品 og チコ estes 内 Paks Ah に レー バン ロ",
+          "name_evidence": "新ogチコestes内PaksAhにレバンロ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 9711,
+          "bbox": [
+            150,
+            1750,
+            291,
+            1797
+          ],
+          "cell": [
+            0,
+            1620,
+            1337,
+            1949
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 169,
+          "bbox": [
+            2393,
+            1900,
+            2515,
+            1947
+          ],
+          "cell": [
+            1337,
+            1620,
+            4000,
+            1949
+          ],
+          "name_text": "a =A a ov ime Ts ae ee th am Sg ay",
+          "name_evidence": "aAaovimeTsaeeethamSgay",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 183,
+          "bbox": [
+            169,
+            2212,
+            209,
+            2240
+          ],
+          "cell": [
+            0,
+            1949,
+            474,
+            2320
+          ],
+          "name_text": "toned 電 け で つく",
+          "name_evidence": "toned電けでつく",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 259,
+          "bbox": [
+            669,
+            2200,
+            850,
+            2253
+          ],
+          "cell": [
+            474,
+            1949,
+            763,
+            2320
+          ],
+          "name_text": "Ege っ た チキ",
+          "name_evidence": "Egeったチキ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 279,
+          "bbox": [
+            694,
+            2262,
+            840,
+            2287
+          ],
+          "cell": [
+            763,
+            1949,
+            899,
+            2320
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 208,
+          "bbox": [
+            965,
+            2118,
+            1097,
+            2165
+          ],
+          "cell": [
+            899,
+            1949,
+            1594,
+            2320
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 29,
+          "bbox": [
+            2106,
+            2271,
+            2209,
+            2318
+          ],
+          "cell": [
+            1594,
+            1949,
+            4000,
+            2320
+          ],
+          "name_text": "os Fs: OR mee ライ ファ ブリ ic a Hy %OFF hoor 16B~ Piso",
+          "name_evidence": "osFsORmeeライファブリicaHyOFFhoorBPiso",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 1995,
+          "bbox": [
+            356,
+            2471,
+            500,
+            2528
+          ],
+          "cell": [
+            0,
+            2320,
+            431,
+            2812
+          ],
+          "name_text": "りー と の",
+          "name_evidence": "りとの",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 214,
+          "bbox": [
+            372,
+            2537,
+            497,
+            2562
+          ],
+          "cell": [
+            431,
+            2320,
+            730,
+            2812
+          ],
+          "name_text": "ard",
+          "name_evidence": "ard",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 2169,
+          "bbox": [
+            947,
+            2503,
+            1106,
+            2550
+          ],
+          "cell": [
+            730,
+            2320,
+            1185,
+            2812
+          ],
+          "name_text": "ys クル ミニ",
+          "name_evidence": "ysクルミニ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 213,
+          "bbox": [
+            1281,
+            2568,
+            1406,
+            2593
+          ],
+          "cell": [
+            1185,
+            2320,
+            1641,
+            2812
+          ],
+          "name_text": "«|e Eien ‘sito",
+          "name_evidence": "eEiensito",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 6159,
+          "bbox": [
+            1865,
+            2496,
+            2015,
+            2546
+          ],
+          "cell": [
+            1641,
+            2320,
+            2751,
+            2812
+          ],
+          "name_text": "321m Nass, り ro 他 も に AP",
+          "name_evidence": "mNassりro他もにAP",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "099a7f433eef11edb4d3.jpg",
+          "price": 3077,
+          "bbox": [
+            3449,
+            2409,
+            3677,
+            2487
+          ],
+          "cell": [
+            2751,
+            2320,
+            4000,
+            2812
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        }
+      ]
+    },
+    {
+      "id": "life_0912",
+      "pass": true,
+      "status": "original_product_association_ran",
+      "detector_version": "hybrid-price-v1.9.2",
+      "price_recall": 0.9166666666666666,
+      "price_threshold": 0.7,
+      "expected_anchor_count": 36,
+      "detected_anchor_count": 1300,
+      "matched_anchor_count": 33,
+      "association_anchor_count": 37,
+      "name_association_count": 26,
+      "name_association_total": 37,
+      "name_coverage": 0.7027027027027027,
+      "name_coverage_threshold": 0.55,
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/e30a242f248b50e5f0f3.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/abb0949e11a5f2d78ca6.jpg"
+      ],
+      "images": [
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 449,
+          "association_anchor_count": 19,
+          "name_token_count": 192,
+          "name_hits": 15
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 851,
+          "association_anchor_count": 18,
+          "name_token_count": 123,
+          "name_hits": 11
+        }
+      ],
+      "local_fallback_enabled": false,
+      "unmatched_detection_sample": [
+        55,
+        52,
+        9128,
+        38,
+        180,
+        9124,
+        24,
+        138,
+        235,
+        359,
+        382,
+        823,
+        913,
+        225,
+        322,
+        593,
+        932,
+        477,
+        720,
+        772,
+        7720,
+        497,
+        549,
+        770,
+        977,
+        9770,
+        2985,
+        2298,
+        218,
+        232
+      ],
+      "association_sample": [
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 99,
+          "bbox": [
+            637,
+            715,
+            678,
+            743
+          ],
+          "cell": [
+            0,
+            0,
+            719,
+            789
+          ],
+          "name_text": "iB の ea RUG",
+          "name_evidence": "iBのeaRUG",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 708,
+          "bbox": [
+            731,
+            712,
+            833,
+            743
+          ],
+          "cell": [
+            719,
+            0,
+            918,
+            789
+          ],
+          "name_text": "a た ほ",
+          "name_evidence": "aたほ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 2980,
+          "bbox": [
+            954,
+            665,
+            1157,
+            724
+          ],
+          "cell": [
+            918,
+            0,
+            1080,
+            789
+          ],
+          "name_text": "貞和 (waa)",
+          "name_evidence": "貞和waa",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 58,
+          "bbox": [
+            1054,
+            727,
+            1157,
+            762
+          ],
+          "cell": [
+            1080,
+            0,
+            2229,
+            789
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 98,
+          "bbox": [
+            3311,
+            653,
+            3395,
+            771
+          ],
+          "cell": [
+            2229,
+            0,
+            3490,
+            789
+          ],
+          "name_text": "て おり し EX ea 大 地 Hing: の aL a a",
+          "name_evidence": "ておりしEXea大地HingのaLaa",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 150,
+          "bbox": [
+            3491,
+            581,
+            3765,
+            787
+          ],
+          "cell": [
+            3490,
+            0,
+            4000,
+            789
+          ],
+          "name_text": "トピ Pao w12<13(g) BE",
+          "name_evidence": "トピPaowBE",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 98,
+          "bbox": [
+            392,
+            1153,
+            463,
+            1200
+          ],
+          "cell": [
+            0,
+            789,
+            614,
+            1270
+          ],
+          "name_text": "に a",
+          "name_evidence": "にa",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 518,
+          "bbox": [
+            749,
+            1206,
+            852,
+            1231
+          ],
+          "cell": [
+            614,
+            789,
+            1254,
+            1270
+          ],
+          "name_text": "Radel (£)9/12m0 ン EG ie 開催",
+          "name_evidence": "RadelmンEGie開催",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 199,
+          "bbox": [
+            1682,
+            1234,
+            1735,
+            1268
+          ],
+          "cell": [
+            1254,
+            789,
+            4000,
+            1270
+          ],
+          "name_text": "panes RIFLE: コー ナー 惣菜 お se at 8a ana ee に me oe",
+          "name_evidence": "panesRIFLE惣菜おseataanaeeにmeoe",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 890,
+          "bbox": [
+            2870,
+            1374,
+            2960,
+            1415
+          ],
+          "cell": [
+            0,
+            1270,
+            4000,
+            1417
+          ],
+          "name_text": "tent sack ヵ OFF か の お か 市 oe 夕方 ず 時 ら",
+          "name_evidence": "tentsackヵOFFかのおか市oe夕方ず時ら",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 80,
+          "bbox": [
+            1073,
+            1868,
+            1157,
+            1909
+          ],
+          "cell": [
+            0,
+            1417,
+            1591,
+            1911
+          ],
+          "name_text": "OE Ms ue PO i? ep で ie) Eth zz HE ae",
+          "name_evidence": "OEMsuePOiepでieEthzzHEae",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 228,
+          "bbox": [
+            2011,
+            1868,
+            2123,
+            1909
+          ],
+          "cell": [
+            1591,
+            1417,
+            2256,
+            1911
+          ],
+          "name_text": "の ot ae fe ene",
+          "name_evidence": "のotaefeene",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 98,
+          "bbox": [
+            2403,
+            1862,
+            2487,
+            1903
+          ],
+          "cell": [
+            2256,
+            1417,
+            4000,
+            1911
+          ],
+          "name_text": "er al 時 ma a SaaS Zi Ts",
+          "name_evidence": "eral時maaSaaSZiTs",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 3985,
+          "bbox": [
+            2248,
+            2189,
+            2360,
+            2232
+          ],
+          "cell": [
+            0,
+            1911,
+            4000,
+            2234
+          ],
+          "name_text": "BL: 様 に a3 ze, 名 当たる で es し ys ES ふう HES",
+          "name_evidence": "BL様にaze名当たるでesしysESふうHES",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 505,
+          "bbox": [
+            407,
+            2425,
+            485,
+            2465
+          ],
+          "cell": [
+            0,
+            2234,
+            1111,
+            2798
+          ],
+          "name_text": "Ss",
+          "name_evidence": "Ss",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 378,
+          "bbox": [
+            1732,
+            2437,
+            1822,
+            2478
+          ],
+          "cell": [
+            1111,
+            2234,
+            1916,
+            2798
+          ],
+          "name_text": "トコ",
+          "name_evidence": "トコ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 598,
+          "bbox": [
+            2002,
+            2468,
+            2108,
+            2512
+          ],
+          "cell": [
+            1916,
+            2234,
+            2388,
+            2798
+          ],
+          "name_text": "AC",
+          "name_evidence": "AC",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 985,
+          "bbox": [
+            2680,
+            2472,
+            2764,
+            2512
+          ],
+          "cell": [
+            2388,
+            2234,
+            3022,
+            2798
+          ],
+          "name_text": "an ny",
+          "name_evidence": "anny",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "e30a242f248b50e5f0f3.jpg",
+          "price": 1588,
+          "bbox": [
+            3249,
+            2468,
+            3395,
+            2509
+          ],
+          "cell": [
+            3022,
+            2234,
+            4000,
+            2798
+          ],
+          "name_text": "ee EQ",
+          "name_evidence": "eeEQ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 2212,
+          "bbox": [
+            3529,
+            81,
+            3889,
+            140
+          ],
+          "cell": [
+            0,
+            0,
+            4000,
+            142
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 39,
+          "bbox": [
+            2139,
+            802,
+            2186,
+            839
+          ],
+          "cell": [
+            0,
+            142,
+            4000,
+            841
+          ],
+          "name_text": "eer me ff トク sais る ok as ie KS ee SN fH a4",
+          "name_evidence": "eermeffトクsaisるokasieKSeeSNfHa",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 724,
+          "bbox": [
+            656,
+            1082,
+            703,
+            1119
+          ],
+          "cell": [
+            0,
+            841,
+            1647,
+            1283
+          ],
+          "name_text": "ご ge) ead",
+          "name_evidence": "ごgeead",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 39,
+          "bbox": [
+            2593,
+            1138,
+            2636,
+            1194
+          ],
+          "cell": [
+            1647,
+            841,
+            2913,
+            1283
+          ],
+          "name_text": "ol bt",
+          "name_evidence": "olbt",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 490,
+          "bbox": [
+            3162,
+            1135,
+            3264,
+            1175
+          ],
+          "cell": [
+            2913,
+            841,
+            3269,
+            1283
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 25,
+          "bbox": [
+            3283,
+            1250,
+            3370,
+            1275
+          ],
+          "cell": [
+            3269,
+            841,
+            3387,
+            1283
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 145,
+          "bbox": [
+            3410,
+            1250,
+            3485,
+            1281
+          ],
+          "cell": [
+            3387,
+            841,
+            4000,
+            1283
+          ],
+          "name_text": "Ce rh",
+          "name_evidence": "Cerh",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 159,
+          "bbox": [
+            2671,
+            1408,
+            2742,
+            1446
+          ],
+          "cell": [
+            0,
+            1283,
+            4000,
+            1448
+          ],
+          "name_text": "als ニニ ニー ニテ QOH KES 人 2s",
+          "name_evidence": "alsニニニニテQOHKES人s",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 338,
+          "bbox": [
+            2664,
+            1586,
+            2723,
+            1629
+          ],
+          "cell": [
+            0,
+            1448,
+            2990,
+            1790
+          ],
+          "name_text": "に ai in eet",
+          "name_evidence": "にaiineet",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 898,
+          "bbox": [
+            3239,
+            1747,
+            3336,
+            1788
+          ],
+          "cell": [
+            2990,
+            1448,
+            4000,
+            1790
+          ],
+          "name_text": "ae. ンカ",
+          "name_evidence": "aeンカ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 68,
+          "bbox": [
+            2133,
+            1875,
+            2189,
+            1912
+          ],
+          "cell": [
+            0,
+            1790,
+            2260,
+            2038
+          ],
+          "name_text": "に お ぎり CoS or",
+          "name_evidence": "におぎりCoSor",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 2585,
+          "bbox": [
+            2307,
+            1878,
+            2412,
+            1918
+          ],
+          "cell": [
+            2260,
+            1790,
+            2432,
+            2038
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 36,
+          "bbox": [
+            2478,
+            1881,
+            2531,
+            1918
+          ],
+          "cell": [
+            2432,
+            1790,
+            2603,
+            2038
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 78,
+          "bbox": [
+            2667,
+            1881,
+            2736,
+            1918
+          ],
+          "cell": [
+            2603,
+            1790,
+            3141,
+            2038
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 59,
+          "bbox": [
+            3544,
+            1996,
+            3619,
+            2036
+          ],
+          "cell": [
+            3141,
+            1790,
+            4000,
+            2038
+          ],
+          "name_text": "用 県 Be. に fe",
+          "name_evidence": "用県Beにfe",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 99,
+          "bbox": [
+            2664,
+            2111,
+            2720,
+            2148
+          ],
+          "cell": [
+            0,
+            2038,
+            2979,
+            2296
+          ],
+          "name_text": "ig",
+          "name_evidence": "ig",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 285,
+          "bbox": [
+            3227,
+            2257,
+            3305,
+            2294
+          ],
+          "cell": [
+            2979,
+            2038,
+            4000,
+            2296
+          ],
+          "name_text": "EB ee is:",
+          "name_evidence": "EBeeis",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "abb0949e11a5f2d78ca6.jpg",
+          "price": 104,
+          "bbox": [
+            3442,
+            2496,
+            3479,
+            2528
+          ],
+          "cell": [
+            0,
+            2296,
+            4000,
+            2798
+          ],
+          "name_text": "tt an eon i \"a",
+          "name_evidence": "ttaneonia",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        }
+      ]
+    },
+    {
+      "id": "ok_0907",
+      "pass": true,
+      "status": "original_product_association_ran",
+      "detector_version": "hybrid-price-v1.9.2",
+      "price_recall": 0.85,
+      "price_threshold": 0.65,
+      "expected_anchor_count": 40,
+      "detected_anchor_count": 47,
+      "matched_anchor_count": 34,
+      "association_anchor_count": 47,
+      "name_association_count": 44,
+      "name_association_total": 47,
+      "name_coverage": 0.9361702127659575,
+      "name_coverage_threshold": 0.55,
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/5b5a513970be83e84534.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/67ce40d4d4c1e74bc9da.jpg"
+      ],
+      "images": [
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 22,
+          "association_anchor_count": 22,
+          "name_token_count": 494,
+          "name_hits": 21
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 25,
+          "association_anchor_count": 25,
+          "name_token_count": 461,
+          "name_hits": 23
+        }
+      ],
+      "local_fallback_enabled": false,
+      "unmatched_detection_sample": [
+        388,
+        971,
+        349,
+        73,
+        611,
+        388,
+        872,
+        214,
+        193,
+        446,
+        499,
+        96,
+        178
+      ],
+      "association_sample": [
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 563,
+          "bbox": [
+            2022,
+            799,
+            2149,
+            869
+          ],
+          "cell": [
+            0,
+            0,
+            2469,
+            871
+          ],
+          "name_text": "が WO ub め を め た すこ さつま っ we eee ast 5ROE",
+          "name_evidence": "がWOubめをめたすこさつまっweeeeastROE",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 291,
+          "bbox": [
+            2793,
+            749,
+            2912,
+            819
+          ],
+          "cell": [
+            2469,
+            0,
+            3242,
+            871
+          ],
+          "name_text": "Ea タル ake z の pe いか いこ お FURERDTRIELR. war Ag 大 ィ",
+          "name_evidence": "EaタルakezのpeいかいこおFURERDTRIELRwarAg大ィ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 388,
+          "bbox": [
+            3568,
+            686,
+            3697,
+            757
+          ],
+          "cell": [
+            3242,
+            0,
+            4000,
+            871
+          ],
+          "name_text": "ici nae eat” タル ae が し 上 りく ESU。 フラ 粒 牡 イ",
+          "name_evidence": "icinaeeatタルaeがし上りくESUフラ粒牡イ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 190,
+          "bbox": [
+            2026,
+            1146,
+            2149,
+            1217
+          ],
+          "cell": [
+            0,
+            871,
+            2473,
+            1257
+          ],
+          "name_text": "crt B79 E IRE ジ Ute ョ l ほ Sein sara ae ERO. a",
+          "name_evidence": "crtBEIREジUteョlほSeinsaraaeEROa",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 349,
+          "bbox": [
+            2794,
+            1184,
+            2924,
+            1255
+          ],
+          "cell": [
+            2473,
+            871,
+            3242,
+            1257
+          ],
+          "name_text": "LIL AMOR サク ERD e 玉子 入り",
+          "name_evidence": "LILAMORサクERDe玉子入り",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 971,
+          "bbox": [
+            3568,
+            1157,
+            3685,
+            1226
+          ],
+          "cell": [
+            3242,
+            871,
+            4000,
+            1257
+          ],
+          "name_text": "た に サク と し げ ま し た ee 上 ASK ま 意",
+          "name_evidence": "たにサクとしげましたee上ASKま意",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 873,
+          "bbox": [
+            473,
+            1541,
+            602,
+            1612
+          ],
+          "cell": [
+            0,
+            1257,
+            925,
+            1707
+          ],
+          "name_text": "ER エピ ser PET rs AKO, 回 ろ と ろ 回 まぐ 中 BSR",
+          "name_evidence": "ERエピserPETrsAKO回ろとろ回まぐ中BSR",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 155,
+          "bbox": [
+            1252,
+            1528,
+            1376,
+            1598
+          ],
+          "cell": [
+            925,
+            1257,
+            1720,
+            1707
+          ],
+          "name_text": "Hes イセ フラ チリ エビ パナ えび メイ も き K aga",
+          "name_evidence": "HesイセフラチリエビパナえびメイもきKaga",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 87,
+          "bbox": [
+            2085,
+            1635,
+            2170,
+            1705
+          ],
+          "cell": [
+            1720,
+            1257,
+            2493,
+            1707
+          ],
+          "name_text": "回 ee xe os ぐ 生姜 iY 日",
+          "name_evidence": "回eexeosぐ生姜iY日",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 349,
+          "bbox": [
+            2794,
+            1619,
+            2924,
+            1689
+          ],
+          "cell": [
+            2493,
+            1257,
+            3245,
+            1707
+          ],
+          "name_text": "359m (sap aK vss だい も し た ay HB まい a) ロ 豚",
+          "name_evidence": "msapaKvssだいもしたayHBまいaロ豚",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 310,
+          "bbox": [
+            3568,
+            1615,
+            3697,
+            1685
+          ],
+          "cell": [
+            3245,
+            1257,
+            4000,
+            1707
+          ],
+          "name_text": "aam279m (sd こん ぜん まい ほう れん PL CA の Sy の ナム ル",
+          "name_evidence": "aammsdこんぜんまいほうれんPLCAのSyのナムル",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 194,
+          "bbox": [
+            478,
+            1876,
+            603,
+            1946
+          ],
+          "cell": [
+            0,
+            1707,
+            927,
+            2071
+          ],
+          "name_text": "べ の nah た EE か つ お た た き 回 サク ae",
+          "name_evidence": "べのnahたEEかつおたたき回サクae",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 164,
+          "bbox": [
+            1252,
+            1891,
+            1377,
+            1961
+          ],
+          "cell": [
+            927,
+            1707,
+            1696,
+            2071
+          ],
+          "name_text": "大 粒 付 あ 回 味 さり た れ 時 (スタ 味 塩 ミナ",
+          "name_evidence": "大粒付あ回味さりたれ時スタ味塩ミナ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 611,
+          "bbox": [
+            2021,
+            1999,
+            2137,
+            2069
+          ],
+          "cell": [
+            1696,
+            1707,
+            2808,
+            2071
+          ],
+          "name_text": "BF la96J) Eel ED aoe D te ぎ と 中 巻 ね ろ",
+          "name_evidence": "BFlaJEelEDaoeDteぎと中巻ねろ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 73,
+          "bbox": [
+            3421,
+            1876,
+            3656,
+            1950
+          ],
+          "cell": [
+            2808,
+            1707,
+            4000,
+            2071
+          ],
+          "name_text": "en asm",
+          "name_evidence": "enasm",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 241,
+          "bbox": [
+            472,
+            2168,
+            590,
+            2237
+          ],
+          "cell": [
+            0,
+            2071,
+            942,
+            2270
+          ],
+          "name_text": "めか 回 じき 切身 産 回 太平洋 他 FY",
+          "name_evidence": "めか回じき切身産回太平洋他FY",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 88,
+          "bbox": [
+            1311,
+            2198,
+            1395,
+            2268
+          ],
+          "cell": [
+            942,
+            2071,
+            2106,
+            2270
+          ],
+          "name_text": "めか sts 回 じき カツ レツ 用 arisaa SEER oo",
+          "name_evidence": "めかsts回じきカツレツ用arisaaSEERoo",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 564,
+          "bbox": [
+            2795,
+            2066,
+            2925,
+            2136
+          ],
+          "cell": [
+            2106,
+            2071,
+            4000,
+            2270
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 222,
+          "bbox": [
+            472,
+            2498,
+            603,
+            2567
+          ],
+          "cell": [
+            0,
+            2270,
+            924,
+            2806
+          ],
+          "name_text": "エキ スリ O だ UK HetHRB i 回 紅鮭 TREC) mca",
+          "name_evidence": "エキスリOだUKHetHRBi回紅鮭TRECmca",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 872,
+          "bbox": [
+            1248,
+            2495,
+            1376,
+            2565
+          ],
+          "cell": [
+            924,
+            2270,
+            1698,
+            2806
+          ],
+          "name_text": "90R LISLE, SSR yb 160g Pom",
+          "name_evidence": "RLISLESSRybPom",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 214,
+          "bbox": [
+            2020,
+            2495,
+            2150,
+            2564
+          ],
+          "cell": [
+            1698,
+            2270,
+            2472,
+            2806
+          ],
+          "name_text": "生地 みた で シュ の DROME PS オ コラ ン ショ set",
+          "name_evidence": "生地みたでシュのDROMEPSオコランショset",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "5b5a513970be83e84534.jpg",
+          "price": 388,
+          "bbox": [
+            2794,
+            2422,
+            2924,
+            2493
+          ],
+          "cell": [
+            2472,
+            2270,
+            4000,
+            2806
+          ],
+          "name_text": "ん frets MS ま く あ を おり か に HHD ち ラ らし",
+          "name_evidence": "んfretsMSまくあをおりかにHHDちラらし",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 193,
+          "bbox": [
+            2054,
+            633,
+            2154,
+            690
+          ],
+          "cell": [
+            0,
+            0,
+            2490,
+            692
+          ],
+          "name_text": "ラッ a poe 新 商品 カー 発 売 メー 時 に ン ペ ニン",
+          "name_evidence": "ラッapoe新カ発売メ時にンペニン",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 290,
+          "bbox": [
+            2824,
+            558,
+            2929,
+            616
+          ],
+          "cell": [
+            2490,
+            0,
+            3262,
+            692
+          ],
+          "name_text": "AO に 安く RELELTE あま ざけ OG 1000me",
+          "name_evidence": "AOに安くRELELTEあまざけOGme",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 1380,
+          "bbox": [
+            3596,
+            484,
+            3701,
+            541
+          ],
+          "cell": [
+            3262,
+            0,
+            4000,
+            692
+          ],
+          "name_text": "UE TUES. UT OBER THU RP EPR JNTL AA コ ン マー シ ュー",
+          "name_evidence": "UETUESUTOBERTHURPEPRJNTLAAコンマシュ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 105,
+          "bbox": [
+            506,
+            751,
+            607,
+            808
+          ],
+          "cell": [
+            0,
+            692,
+            942,
+            1034
+          ],
+          "name_text": "か ぼ プリ ち の ン 95g ゃ ニラ",
+          "name_evidence": "かぼプリちのンゃニラ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 378,
+          "bbox": [
+            1276,
+            903,
+            1381,
+            960
+          ],
+          "cell": [
+            942,
+            692,
+            2103,
+            1034
+          ],
+          "name_text": "EE mAJINOMOTO aaa eR ハ ン チャ 用 し ょ 人 の",
+          "name_evidence": "EEmAJINOMOTOaaaeRハンチャ用しょ人の",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 164,
+          "bbox": [
+            2828,
+            976,
+            2930,
+            1032
+          ],
+          "cell": [
+            2103,
+            692,
+            3265,
+            1034
+          ],
+          "name_text": "eres ae @LOTTE て いま ず 生 コパ チョ イ",
+          "name_evidence": "eresaeLOTTEていまず生コパチョイ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 158,
+          "bbox": [
+            3601,
+            945,
+            3702,
+            1002
+          ],
+          "cell": [
+            3265,
+            692,
+            4000,
+            1034
+          ],
+          "name_text": "y JOY Wasi ル ポト PORE eS (SSA) 290m2",
+          "name_evidence": "yJOYWasiルポトPOREeSSSAm",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 96,
+          "bbox": [
+            538,
+            1208,
+            607,
+            1265
+          ],
+          "cell": [
+            0,
+            1034,
+            951,
+            1385
+          ],
+          "name_text": "右 伊 衛門 サイ ダー 京都 500m",
+          "name_evidence": "右伊衛門サイダ京都m",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 178,
+          "bbox": [
+            1280,
+            1179,
+            1381,
+            1236
+          ],
+          "cell": [
+            951,
+            1034,
+            1716,
+            1385
+          ],
+          "name_text": "esseiAJINOMOTO ギョ",
+          "name_evidence": "esseiAJINOMOTOギョ",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 446,
+          "bbox": [
+            2050,
+            1113,
+            2154,
+            1170
+          ],
+          "cell": [
+            1716,
+            1034,
+            2875,
+            1385
+          ],
+          "name_text": "40g 内 時 360g+40g",
+          "name_evidence": "内時",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 1320,
+          "bbox": [
+            3596,
+            1326,
+            3701,
+            1383
+          ],
+          "cell": [
+            2875,
+            1034,
+            4000,
+            1385
+          ],
+          "name_text": "(wasn) fats.) トペ キ ザ レ キッ ン a フィ シュ ニッ 特大 個",
+          "name_evidence": "wasnfatsトペキザレキッンaフィシュニッ特大個",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 234,
+          "bbox": [
+            2050,
+            1450,
+            2155,
+            1507
+          ],
+          "cell": [
+            0,
+            1385,
+            2490,
+            1509
+          ],
+          "name_text": "り 300g の",
+          "name_evidence": "りの",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 113,
+          "bbox": [
+            2828,
+            1380,
+            2929,
+            1437
+          ],
+          "cell": [
+            2490,
+            1385,
+            4000,
+            1509
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 499,
+          "bbox": [
+            1276,
+            1617,
+            1381,
+            1674
+          ],
+          "cell": [
+            0,
+            1509,
+            1329,
+            1952
+          ],
+          "name_text": "級 料 ROY 等 原 BL EE pees",
+          "name_evidence": "級料ROY等原BLEEpees",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 178,
+          "bbox": [
+            1280,
+            1893,
+            1381,
+            1950
+          ],
+          "cell": [
+            1329,
+            1509,
+            1725,
+            1952
+          ],
+          "name_text": "使用 esse] sonia 513A 75g 700g||",
+          "name_evidence": "使用essesoniaA",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 96,
+          "bbox": [
+            2086,
+            1845,
+            2154,
+            1902
+          ],
+          "cell": [
+            1725,
+            1509,
+            2499,
+            1952
+          ],
+          "name_text": "ャ 20s. オー ケー り 豆 前 大 ‘e277",
+          "name_evidence": "ャsオケり豆前大e",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 135,
+          "bbox": [
+            2827,
+            1716,
+            2929,
+            1774
+          ],
+          "cell": [
+            2499,
+            1509,
+            3264,
+            1952
+          ],
+          "name_text": "ザ キ マ @NS ガー ル ロー oe)",
+          "name_evidence": "ザキマNSガルロoe",
+          "has_name": true,
+          "source": "red"
+        },
+        {
+          "image": "67ce40d4d4c1e74bc9da.jpg",
+          "price": 540,
+          "bbox": [
+            3598,
+            1786,
+            3702,
+            1844
+          ],
+          "cell": [
+            3264,
+            1509,
+            4000,
+            1952
+          ],
+          "name_text": "a パン ジ フ フ ァ ァ ャ フ ァ リ スト ファ ca)",
+          "name_evidence": "aパンジフファァャファリストファca",
+          "has_name": true,
+          "source": "red"
+        }
+      ]
+    },
+    {
+      "id": "comodi_0909",
+      "pass": true,
+      "status": "original_product_association_ran",
+      "detector_version": "hybrid-price-v1.9.2",
+      "price_recall": 0.8478260869565217,
+      "price_threshold": 0.65,
+      "expected_anchor_count": 46,
+      "detected_anchor_count": 695,
+      "matched_anchor_count": 39,
+      "association_anchor_count": 33,
+      "name_association_count": 21,
+      "name_association_total": 33,
+      "name_coverage": 0.6363636363636364,
+      "name_coverage_threshold": 0.55,
+      "cache_files": [
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/d11cafcf7489a6373ded.jpg",
+        "/mnt/data/flyer_release_v1_9_3_work/flyer_pdca_v1_9_3/data/remote_cache/254d15dbab291c67133c.jpg"
+      ],
+      "images": [
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 219,
+          "association_anchor_count": 16,
+          "name_token_count": 151,
+          "name_hits": 12
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "anchor_cache_hit": true,
+          "broad_anchor_count": 476,
+          "association_anchor_count": 17,
+          "name_token_count": 133,
+          "name_hits": 9
+        }
+      ],
+      "local_fallback_enabled": false,
+      "unmatched_detection_sample": [
+        179,
+        904,
+        71,
+        9112,
+        112,
+        295,
+        511,
+        951,
+        117,
+        22,
+        312,
+        87,
+        712,
+        93,
+        110,
+        910,
+        911,
+        930,
+        993,
+        160,
+        30,
+        1254,
+        1509,
+        100,
+        27,
+        97,
+        302,
+        3025,
+        51,
+        1271
+      ],
+      "association_sample": [
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 2951,
+          "bbox": [
+            111,
+            59,
+            358,
+            118
+          ],
+          "cell": [
+            0,
+            0,
+            2800,
+            120
+          ],
+          "name_text": "y EEE",
+          "name_evidence": "yEEE",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 97,
+          "bbox": [
+            1153,
+            490,
+            1298,
+            545
+          ],
+          "cell": [
+            0,
+            120,
+            1228,
+            655
+          ],
+          "name_text": "あい て こう Terre XESS よ り 販 売 ae ors ンズ ra ナッ",
+          "name_evidence": "あいてこうTerreXESSaeorsンズraナッ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 2145,
+          "bbox": [
+            1175,
+            547,
+            1286,
+            579
+          ],
+          "cell": [
+            1228,
+            120,
+            1304,
+            655
+          ],
+          "name_text": "age",
+          "name_evidence": "age",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 97,
+          "bbox": [
+            1357,
+            619,
+            1400,
+            653
+          ],
+          "cell": [
+            1304,
+            120,
+            1840,
+            655
+          ],
+          "name_text": "ers A",
+          "name_evidence": "ersA",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 1254,
+          "bbox": [
+            2233,
+            415,
+            2371,
+            442
+          ],
+          "cell": [
+            1840,
+            120,
+            2333,
+            655
+          ],
+          "name_text": "om オフ ic",
+          "name_evidence": "omオフic",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 2026,
+          "bbox": [
+            2296,
+            479,
+            2435,
+            542
+          ],
+          "cell": [
+            2333,
+            120,
+            2800,
+            655
+          ],
+          "name_text": "ィ サー7 ポン ルス せ が ャ シ gay M7",
+          "name_evidence": "ィサポンルスせがャシgayM",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 1915,
+          "bbox": [
+            601,
+            849,
+            692,
+            880
+          ],
+          "cell": [
+            0,
+            655,
+            2800,
+            882
+          ],
+          "name_text": "Bs し キム (ay お し いち Km J キム チー トラ ラペ essen",
+          "name_evidence": "BsしキムayおしいちKmJキムチトララペessen",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 7529,
+          "bbox": [
+            1182,
+            1146,
+            1293,
+            1182
+          ],
+          "cell": [
+            0,
+            882,
+            1238,
+            1184
+          ],
+          "name_text": "し ao pig Bice an we! ati re",
+          "name_evidence": "しaopigBiceanweatire",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 490,
+          "bbox": [
+            1184,
+            1100,
+            1296,
+            1157
+          ],
+          "cell": [
+            1238,
+            882,
+            2800,
+            1184
+          ],
+          "name_text": "ソ ス ソー- ス ス ツー- キャ マッ LT",
+          "name_evidence": "ソスソススツキャマッLT",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 1065,
+          "bbox": [
+            388,
+            1450,
+            510,
+            1488
+          ],
+          "cell": [
+            0,
+            1184,
+            1200,
+            1490
+          ],
+          "name_text": "よ り 9/10G Bec! AA 人 だ pr Es Ng, An si DO:",
+          "name_evidence": "BecAA人だprEsNgAnsiDO",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 59,
+          "bbox": [
+            1919,
+            1350,
+            1983,
+            1398
+          ],
+          "cell": [
+            1200,
+            1184,
+            2800,
+            1490
+          ],
+          "name_text": "ke ae 売 キバ EAC ラ ‘aad の",
+          "name_evidence": "keae売キバEACラaadの",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 1118,
+          "bbox": [
+            2541,
+            1513,
+            2655,
+            1586
+          ],
+          "cell": [
+            0,
+            1490,
+            2602,
+            1611
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 1925,
+          "bbox": [
+            2562,
+            1550,
+            2652,
+            1609
+          ],
+          "cell": [
+            2602,
+            1490,
+            2800,
+            1611
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 5553,
+          "bbox": [
+            2101,
+            1838,
+            2199,
+            1890
+          ],
+          "cell": [
+            0,
+            1611,
+            2371,
+            2042
+          ],
+          "name_text": "ls ARE) yuu く リ ss Pac Py",
+          "name_evidence": "lsAREyuuくリssPacPy",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 995,
+          "bbox": [
+            2534,
+            1831,
+            2650,
+            1883
+          ],
+          "cell": [
+            2371,
+            1611,
+            2592,
+            2042
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "d11cafcf7489a6373ded.jpg",
+          "price": 754,
+          "bbox": [
+            2543,
+            1885,
+            2641,
+            1917
+          ],
+          "cell": [
+            2592,
+            1611,
+            2800,
+            2042
+          ],
+          "name_text": "の の",
+          "name_evidence": "のの",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 9711,
+          "bbox": [
+            1554,
+            170,
+            1713,
+            208
+          ],
+          "cell": [
+            0,
+            0,
+            2800,
+            210
+          ],
+          "name_text": "より カ を 店 取扱 アイテム TEE HERE い 公式 TikTok",
+          "name_evidence": "カを店取扱アイテムTEEHEREい公式TikTok",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 58,
+          "bbox": [
+            66,
+            504,
+            145,
+            529
+          ],
+          "cell": [
+            0,
+            210,
+            180,
+            574
+          ],
+          "name_text": "Gz cua ちゃ ん RE",
+          "name_evidence": "GzcuaちゃんRE",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 29,
+          "bbox": [
+            238,
+            450,
+            271,
+            468
+          ],
+          "cell": [
+            180,
+            210,
+            310,
+            574
+          ],
+          "name_text": "Nr",
+          "name_evidence": "Nr",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 3800,
+          "bbox": [
+            330,
+            480,
+            403,
+            502
+          ],
+          "cell": [
+            310,
+            210,
+            449,
+            574
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 298,
+          "bbox": [
+            457,
+            412,
+            606,
+            520
+          ],
+          "cell": [
+            449,
+            210,
+            747,
+            574
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 7500,
+          "bbox": [
+            925,
+            364,
+            1002,
+            389
+          ],
+          "cell": [
+            747,
+            210,
+            1175,
+            574
+          ],
+          "name_text": "ハナ マル キ 添加 無 うじ に みそ",
+          "name_evidence": "ハナマルキ添加無うじにみそ",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 221,
+          "bbox": [
+            1360,
+            550,
+            1416,
+            572
+          ],
+          "cell": [
+            1175,
+            210,
+            2800,
+            574
+          ],
+          "name_text": "公 式 LINE ク ポ ン UU た は じ め ま し pc",
+          "name_evidence": "公式LINEクポンUUたはじめましpc",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 3225,
+          "bbox": [
+            213,
+            731,
+            283,
+            760
+          ],
+          "cell": [
+            0,
+            574,
+            612,
+            767
+          ],
+          "name_text": "村々",
+          "name_evidence": "村",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 72,
+          "bbox": [
+            961,
+            737,
+            993,
+            765
+          ],
+          "cell": [
+            612,
+            574,
+            2800,
+            767
+          ],
+          "name_text": "I ey se) axa oI Peso ih 1B ms",
+          "name_evidence": "IeyseaxaoIPesoihBms",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 128,
+          "bbox": [
+            932,
+            914,
+            1025,
+            966
+          ],
+          "cell": [
+            0,
+            767,
+            2800,
+            968
+          ],
+          "name_text": "mu Ae: oa i ジョ Fi",
+          "name_evidence": "muAeoaiジョFi",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 27,
+          "bbox": [
+            1932,
+            1362,
+            1973,
+            1382
+          ],
+          "cell": [
+            0,
+            968,
+            2800,
+            1384
+          ],
+          "name_text": "pene PE ELIT Re. ス SS LE my TRY ME! cas” Sa el",
+          "name_evidence": "penePEELITReスSSLEmyTRYMEcasSael",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 5168,
+          "bbox": [
+            1715,
+            1504,
+            1767,
+            1527
+          ],
+          "cell": [
+            0,
+            1384,
+            2800,
+            1529
+          ],
+          "name_text": "WIRD aa ラ ロー iP CO) の で",
+          "name_evidence": "WIRDaaラロiPCOので",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 65,
+          "bbox": [
+            308,
+            1789,
+            357,
+            1819
+          ],
+          "cell": [
+            0,
+            1529,
+            337,
+            2036
+          ],
+          "name_text": "A",
+          "name_evidence": "A",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 95,
+          "bbox": [
+            319,
+            1746,
+            364,
+            1789
+          ],
+          "cell": [
+            337,
+            1529,
+            395,
+            2036
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 99,
+          "bbox": [
+            364,
+            1642,
+            536,
+            1688
+          ],
+          "cell": [
+            395,
+            1529,
+            597,
+            2036
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 99,
+          "bbox": [
+            719,
+            1850,
+            771,
+            1893
+          ],
+          "cell": [
+            597,
+            1529,
+            831,
+            2036
+          ],
+          "name_text": "",
+          "name_evidence": "",
+          "has_name": false,
+          "source": "ocr_assoc_900"
+        },
+        {
+          "image": "254d15dbab291c67133c.jpg",
+          "price": 2249,
+          "bbox": [
+            880,
+            1855,
+            957,
+            1889
+          ],
+          "cell": [
+            831,
+            1529,
+            2800,
+            2036
+          ],
+          "name_text": "uN a デス BS タ en <a に に",
+          "name_evidence": "uNaデスBSタenaにに",
+          "has_name": true,
+          "source": "ocr_assoc_900"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Broad anchors validate price recall; narrower association anchors partition product-name cells. Exact-name correctness remains protected by local/synthetic ground-truth regressions."
+}

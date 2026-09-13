@@ -1,0 +1,160 @@
+{
+  "version": "v1.9.3",
+  "checks": {
+    "python_syntax": {
+      "pass": true,
+      "stderr": ""
+    },
+    "source_provenance_positive_negative_current": {
+      "pass": true,
+      "report": "source_provenance_regression_v1_9.json"
+    },
+    "recognition_fingerprint_positive_negative_current": {
+      "pass": true,
+      "report": "recognition_fingerprint_regression_v1_9.json"
+    },
+    "recognition_source_matches_v1_9_baseline": {
+      "pass": false,
+      "status": "recognition_source_differs_from_baseline",
+      "baseline_version": "v1.9",
+      "fingerprint_path": "/mnt/data/flyer_final_build/flyer_vnext/fixtures/recognition_source_fingerprint_v1_9.json",
+      "file_count": 15,
+      "changed": [],
+      "missing": [],
+      "unexpected": [
+        "auto_update.py",
+        "build_from_canonical.py",
+        "dom_gate.py",
+        "extract_runtime_candidates.py",
+        "final_display_gate.py",
+        "promotion.py",
+        "rebuild_verified_snapshot.py",
+        "source_discovery.py",
+        "vnext_common.py"
+      ]
+    },
+    "v1_7_to_v1_9_core_delta_only_generic_price_detector": {
+      "pass": false,
+      "changed": [
+        "generic_price_detector.py"
+      ],
+      "missing": [],
+      "unexpected": [
+        "auto_update.py",
+        "build_from_canonical.py",
+        "dom_gate.py",
+        "extract_runtime_candidates.py",
+        "final_display_gate.py",
+        "promotion.py",
+        "rebuild_verified_snapshot.py",
+        "source_discovery.py",
+        "vnext_common.py"
+      ]
+    },
+    "output_policy_current": {
+      "pass": true,
+      "report": "output_policy_v1_9.json"
+    },
+    "preview_docs_ui_current": {
+      "pass": true,
+      "report": "preview_regression_v1_9.json"
+    },
+    "remote_manifest_current": {
+      "pass": true,
+      "report": "remote_regression_manifest_validation_v1_9.json"
+    },
+    "life_0909_uniform_e2e_current": {
+      "pass": true,
+      "report": "life_0909_uniform_e2e_v1_9_3.json"
+    },
+    "life_0909_decoy_precision_current": {
+      "pass": true,
+      "report": "life_0909_uniform_children_decoy_safety_v1_9_3.json"
+    },
+    "product_association_positive_negative_current": {
+      "pass": true,
+      "report": "original_product_e2e_runner_regression_v1_9.json"
+    },
+    "life_0910_names_inherited_unchanged_core": {
+      "pass": true,
+      "report": "life_0910_names_v1_4.json"
+    },
+    "life_segmentation_inherited_unchanged_core": {
+      "pass": true,
+      "report": "life_segmentation_regression_v1_4.json"
+    },
+    "numeric_name_resolution_inherited_unchanged_core": {
+      "pass": true,
+      "report": "numeric_name_resolution_v1_4.json"
+    },
+    "source_adapter_inherited_unchanged_core": {
+      "pass": true,
+      "report": "source_adapter_offline_v1_4.json"
+    },
+    "temporal_rules_inherited_unchanged_core": {
+      "pass": true,
+      "report": "temporal_rules_current_flyers_v1_1.json",
+      "passed": 20,
+      "total": 20
+    },
+    "comodi_mixed_temporal_scope_inherited": {
+      "pass": true,
+      "report": "synthetic_comodi_mixed_v1_4.json"
+    },
+    "comodi_nested_temporal_scope_inherited": {
+      "pass": true,
+      "report": "synthetic_comodi_nested_v1_4.json"
+    }
+  },
+  "real_image_gates": {
+    "original_source_provenance_integrity": {
+      "pass": false,
+      "status": "missing_provenance_report"
+    },
+    "life_original_price_anchor_regression": {
+      "pass": false,
+      "groups": {
+        "life_0909": {
+          "pass": false,
+          "status": "missing_remote_group"
+        },
+        "life_0912": {
+          "pass": false,
+          "status": "missing_remote_group"
+        }
+      }
+    },
+    "ok_original_price_anchor_regression": {
+      "pass": false,
+      "status": "missing_remote_group"
+    },
+    "comodi_original_price_anchor_regression": {
+      "pass": false,
+      "status": "missing_remote_group"
+    },
+    "life_original_product_extraction_e2e": {
+      "pass": false,
+      "status": "missing_product_e2e_report"
+    },
+    "ok_original_product_extraction_e2e": {
+      "pass": false,
+      "status": "missing_product_e2e_report"
+    },
+    "comodi_original_product_extraction_e2e": {
+      "pass": false,
+      "status": "missing_product_e2e_report"
+    }
+  },
+  "functional_regression_pass": false,
+  "github_release_ready": false,
+  "blocking_reasons": [
+    "original_source_provenance_integrity",
+    "life_original_price_anchor_regression",
+    "ok_original_price_anchor_regression",
+    "comodi_original_price_anchor_regression",
+    "life_original_product_extraction_e2e",
+    "ok_original_product_extraction_e2e",
+    "comodi_original_product_extraction_e2e"
+  ],
+  "interpretation": "v1.9 changes the generic price detector only in recognition core. That delta is covered by current real-image price regression and current positive/negative association regressions. GitHub release requires all functional and original-image gates to pass."
+}

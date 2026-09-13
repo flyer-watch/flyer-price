@@ -1,0 +1,89 @@
+{
+  "version": "v1.9.3",
+  "mode": "quick",
+  "local_regression_pass": true,
+  "steps": [
+    {
+      "label": "python_syntax",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.63,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "label": "source_provenance_regression",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 1.1,
+      "stdout_tail": "{\n  \"version\": \"v1.9\",\n  \"tests\": [\n    {\n      \"name\": \"positive_local_http_fetch\",\n      \"pass\": true,\n      \"valid_count\": 2,\n      \"required_count\": 2\n    },\n    {\n      \"name\": \"detect_valid_image_substitution\",\n      \"pass\": true,\n      \"validator_pass\": false,\n      \"first_reasons\": [\n        \"sha256_mismatch\",\n        \"bytes_mismatch\",\n        \"height_mismatch\"\n      ]\n    },\n    {\n      \"name\": \"detect_provenance_hash_tamper\",\n      \"pass\": true,\n      \"validator_pass\": false\n    },\n    {\n      \"name\": \"reject_unprovenanced_existing_cache\",\n      \"pass\": true,\n      \"status\": \"missing_provenance\"\n    }\n  ],\n  \"pass\": true\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "recognition_fingerprint_regression",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.56,
+      "stdout_tail": "{\n  \"version\": \"v1.9\",\n  \"checks\": {\n    \"current_matches_v1_9_baseline\": true,\n    \"single_core_change_detected\": true\n  },\n  \"positive\": {\n    \"pass\": true,\n    \"status\": \"recognition_source_matches_baseline\",\n    \"baseline_version\": \"v1.9\",\n    \"fingerprint_path\": \"/mnt/data/flyer_f_fix/fixtures/recognition_source_fingerprint_v1_9.json\",\n    \"file_count\": 15,\n    \"changed\": [],\n    \"missing\": [],\n    \"unexpected\": []\n  },\n  \"negative\": {\n    \"pass\": false,\n    \"status\": \"recognition_source_differs_from_baseline\",\n    \"baseline_version\": \"v1.9\",\n    \"fingerprint_path\": \"/mnt/data/flyer_f_fix/fixtures/recognition_source_fingerprint_v1_9.json\",\n    \"file_count\": 15,\n    \"changed\": [\n      \"generic_price_detector.py\"\n    ],\n    \"missing\": [],\n    \"unexpected\": []\n  },\n  \"pass\": true\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "output_policy",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.55,
+      "stdout_tail": "{\"pass\": true, \"real_input\": 53, \"real_output\": 49, \"checks\": {\"dedupe\": true, \"percent_only_excluded\": true, \"household_excluded\": true, \"floor_given_inc\": true, \"calc_and_floor_inc\": true, \"zero_price_excluded\": true, \"real_53_to_49\": true, \"real_no_household\": true, \"real_all_included_integer\": true, \"real_no_duplicates\": true, \"real_all_positive\": true}}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "build_preview_docs",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.59,
+      "stdout_tail": "{\"input_rows\": 53, \"output_rows\": 49, \"excluded\": 4, \"csv\": \"/mnt/data/flyer_f_fix/data/local_beta_products_filtered.csv\", \"js\": \"/mnt/data/flyer_f_fix/preview/data.js\", \"docs\": \"/mnt/data/flyer_f_fix/docs\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "remote_manifest_dry",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.68,
+      "stdout_tail": "{\n  \"pass\": true,\n  \"errors\": [],\n  \"group_count\": 4,\n  \"detector_version\": \"hybrid-price-v1.9.2\"\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "remote_cache_inventory",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.59,
+      "stdout_tail": "{\"required_count\": 8, \"present_count\": 0, \"missing_count\": 8, \"provenance_valid_count\": 0, \"complete\": false, \"release_source_ready\": false}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "preview_docs_ui",
+      "returncode": 0,
+      "pass": true,
+      "seconds": 0.56,
+      "stdout_tail": "{\"version\": \"v1.9\", \"stores\": [\"life_hikawadai\", \"ok_kamiitabashi\"], \"date_test\": [\"2026-09-09\", \"2026-09-10\", \"2026-09-11\"], \"checks\": {\"node_available_and_date_utils_runs\": true, \"jst_safe_date_sequence\": true, \"date_utils_loaded_before_app\": true, \"stores_are_data_driven\": true, \"no_empty_store_tab_source\": true, \"meta_v1_9\": true, \"docs_files_match_preview\": true, \"row_count_49\": true, \"all_prices_integer_positive\": true, \"no_household_category\": true}, \"pass\": true}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "life_0909_uniform_e2e_current",
+      "pass": true,
+      "report": "life_0909_uniform_e2e_v1_9_3.json",
+      "seconds": 0.0
+    },
+    {
+      "label": "life_0909_decoy_safety_current",
+      "pass": true,
+      "report": "life_0909_uniform_children_decoy_safety_v1_9_3.json",
+      "seconds": 0.0
+    },
+    {
+      "label": "product_association_positive_negative_current",
+      "pass": true,
+      "report": "original_product_e2e_runner_regression_v1_9.json",
+      "seconds": 0.0
+    }
+  ]
+}

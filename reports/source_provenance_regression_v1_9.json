@@ -1,0 +1,32 @@
+{
+  "version": "v1.9",
+  "tests": [
+    {
+      "name": "positive_local_http_fetch",
+      "pass": true,
+      "valid_count": 2,
+      "required_count": 2
+    },
+    {
+      "name": "detect_valid_image_substitution",
+      "pass": true,
+      "validator_pass": false,
+      "first_reasons": [
+        "sha256_mismatch",
+        "bytes_mismatch",
+        "height_mismatch"
+      ]
+    },
+    {
+      "name": "detect_provenance_hash_tamper",
+      "pass": true,
+      "validator_pass": false
+    },
+    {
+      "name": "reject_unprovenanced_existing_cache",
+      "pass": true,
+      "status": "missing_provenance"
+    }
+  ],
+  "pass": true
+}

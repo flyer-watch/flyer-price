@@ -1,0 +1,257 @@
+{
+  "version": "vNext-20260913g-source-accuracy",
+  "pass": true,
+  "stages": 9,
+  "steps": [
+    {
+      "label": "1_python_syntax",
+      "pass": true,
+      "rc": 0,
+      "seconds": 0.61,
+      "stdout_tail": "",
+      "stderr_tail": ""
+    },
+    {
+      "label": "2_legacy_quick_regressions",
+      "pass": true,
+      "rc": 0,
+      "seconds": 5.82,
+      "stdout_tail": "{\"step\": \"python_syntax\", \"pass\": true, \"seconds\": 0.63}\n{\"step\": \"source_provenance_regression\", \"pass\": true, \"seconds\": 1.1}\n{\"step\": \"recognition_fingerprint_regression\", \"pass\": true, \"seconds\": 0.56}\n{\"step\": \"output_policy\", \"pass\": true, \"seconds\": 0.55}\n{\"step\": \"build_preview_docs\", \"pass\": true, \"seconds\": 0.59}\n{\"step\": \"remote_manifest_dry\", \"pass\": true, \"seconds\": 0.68}\n{\"step\": \"remote_cache_inventory\", \"pass\": true, \"seconds\": 0.59}\n{\"step\": \"preview_docs_ui\", \"pass\": true, \"seconds\": 0.56}\n{\"step\": \"life_0909_uniform_e2e_current\", \"pass\": true, \"seconds\": 0.0}\n{\"step\": \"life_0909_decoy_safety_current\", \"pass\": true, \"seconds\": 0.0}\n{\"step\": \"product_association_positive_negative_current\", \"pass\": true, \"seconds\": 0.0}\n{\"version\": \"v1.9.3\", \"mode\": \"quick\", \"local_regression_pass\": true, \"steps\": 11}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "restore_verified_release_after_legacy",
+      "pass": true,
+      "rc": 0,
+      "seconds": 4.19,
+      "stdout_tail": "{\"pass\": true, \"rows\": 305, \"phase\": \"promoted\", \"gate_mode\": \"release\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "3_original_source_provenance",
+      "pass": true,
+      "skipped": true,
+      "reason": "third_party_originals_not_bundled_in_distribution"
+    },
+    {
+      "label": "4_staging_release_gate",
+      "pass": true,
+      "rc": 0,
+      "seconds": 0.57,
+      "stdout_tail": "{\"pass\": true, \"day\": \"2026-09-13\", \"gate_mode\": \"release\", \"rows\": 305, \"counts\": {\"life_hikawadai\": 64, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 31, \"belx_itabashi_nakadai\": 164}, \"active_counts\": {\"life_hikawadai\": 40, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 12, \"belx_itabashi_nakadai\": 39}, \"errors\": [], \"row_validation\": {\"pass\": true, \"rows\": 305, \"counts\": {\"life_hikawadai\": 64, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 31, \"belx_itabashi_nakadai\": 164}, \"active_counts\": {\"life_hikawadai\": 40, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 12, \"belx_itabashi_nakadai\": 39}, \"errors\": [], \"details\": {\"household_allowed_count\": 5, \"household_samples\": [[30, \"大王製紙 エリエール トイレットティシュー（シングル／ダブル）\"], [40, \"P&G ボールド ジェル 詰替超特大\"], [106, \"デリブティック ティシューペーパー\"], [108, \"JNTLコンシューマーヘルス 薬用リステリン トータルケアプラス\"], [110, \"レキットベンキーザー フィニッシュ 凝縮パワーキューブ\"]], \"bad_price\": [], \"blank\": [], \"duplicates\": [], \"bad_dates\": [], \"missing_provenance\": []}}, \"runtime_validation\": null, \"artifacts\": {}, \"dom\": null}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "5_transactional_promotion",
+      "pass": true,
+      "rc": 0,
+      "seconds": 4.32,
+      "stdout_tail": "{\"pass\": true, \"rows\": 305, \"phase\": \"promoted\", \"gate_mode\": \"release\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "label": "6_bad_staging_fail_closed",
+      "pass": true,
+      "rc": 2,
+      "seconds": 0.59,
+      "stdout_tail": "{\"pass\": false, \"phase\": \"pre_gate\", \"errors\": [\"bad_price=1\"]}\n",
+      "stderr_tail": "",
+      "public_unchanged": true
+    },
+    {
+      "label": "7_fault_injection_rollback",
+      "pass": true,
+      "cases": [
+        {
+          "label": "fault_after_canonical",
+          "pass": true,
+          "rc": 3,
+          "seconds": 0.57,
+          "stdout_tail": "{\"pass\": false, \"phase\": \"rollback\", \"error\": \"FAULT after_canonical\"}\n",
+          "stderr_tail": "",
+          "public_unchanged": true
+        },
+        {
+          "label": "fault_after_build",
+          "pass": true,
+          "rc": 3,
+          "seconds": 1.14,
+          "stdout_tail": "{\"pass\": false, \"phase\": \"rollback\", \"error\": \"FAULT after_build\"}\n",
+          "stderr_tail": "",
+          "public_unchanged": true
+        },
+        {
+          "label": "fault_after_gate",
+          "pass": true,
+          "rc": 3,
+          "seconds": 4.53,
+          "stdout_tail": "{\"pass\": false, \"phase\": \"rollback\", \"error\": \"FAULT after_gate\"}\n",
+          "stderr_tail": "",
+          "public_unchanged": true
+        }
+      ]
+    },
+    {
+      "label": "8_auto_update_safety",
+      "pass": true,
+      "discovery": {
+        "label": "source_discovery_fixture",
+        "pass": true,
+        "rc": 0,
+        "seconds": 0.61,
+        "stdout_tail": "{\"pass\": true, \"tests\": [true, true, true]}\n",
+        "stderr_tail": ""
+      },
+      "fail_closed": {
+        "label": "auto_update_fail_closed",
+        "pass": true,
+        "rc": 0,
+        "seconds": 1.16,
+        "stdout_tail": "{\"pass\": true, \"mode\": \"simulated_new_issue_failure\", \"promotion_rc\": 2, \"public_unchanged\": true}\n",
+        "stderr_tail": "",
+        "public_unchanged": true
+      }
+    },
+    {
+      "label": "9_final_display_dom_gate",
+      "pass": true,
+      "rc": 0,
+      "seconds": 3.22,
+      "stdout_tail": " \"belx_itabashi_nakadai\": 164}, \"active_counts\": {\"life_hikawadai\": 40, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 12, \"belx_itabashi_nakadai\": 39}, \"errors\": [], \"row_validation\": {\"pass\": true, \"rows\": 305, \"counts\": {\"life_hikawadai\": 64, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 31, \"belx_itabashi_nakadai\": 164}, \"active_counts\": {\"life_hikawadai\": 40, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 12, \"belx_itabashi_nakadai\": 39}, \"errors\": [], \"details\": {\"household_allowed_count\": 5, \"household_samples\": [[30, \"大王製紙 エリエール トイレットティシュー（シングル／ダブル）\"], [40, \"P&G ボールド ジェル 詰替超特大\"], [106, \"デリブティック ティシューペーパー\"], [108, \"JNTLコンシューマーヘルス 薬用リステリン トータルケアプラス\"], [110, \"レキットベンキーザー フィニッシュ 凝縮パワーキューブ\"]], \"bad_price\": [], \"blank\": [], \"duplicates\": [], \"bad_dates\": [], \"missing_provenance\": []}}, \"runtime_validation\": null, \"artifacts\": {\"counts\": [305, 305, 305, 305], \"sha256\": {\"data/products.csv\": \"7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c\", \"data/products_publish.csv\": \"7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c\", \"preview/data.js\": \"8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a\", \"docs/data.js\": \"8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a\"}}, \"dom\": {\"pass\": true, \"engine\": \"chromium\", \"total\": 305, \"expected_total\": 305, \"store_counts\": {\"life_hikawadai\": 64, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 31, \"belx_itabashi_nakadai\": 164}, \"expected_store_counts\": {\"life_hikawadai\": 64, \"ok_kamiitabashi\": 46, \"comodi_sakuragawa\": 31, \"belx_itabashi_nakadai\": 164}, \"date_buttons\": [\"2026-09-12\", \"2026-09-13\", \"2026-09-14\", \"2026-09-15\", \"2026-09-16\", \"2026-09-17\", \"2026-09-18\"], \"date_counts\": {\"2026-09-12\": 37, \"2026-09-13\": 48, \"2026-09-14\": 32, \"2026-09-15\": 39, \"2026-09-16\": 16, \"2026-09-17\": 18, \"2026-09-18\": 18}, \"expected_date_counts\": {\"2026-09-12\": 37, \"2026-09-13\": 48, \"2026-09-14\": 32, \"2026-09-15\": 39, \"2026-09-16\": 16, \"2026-09-17\": 18, \"2026-09-18\": 18}, \"missing_date_buttons\": []}}\n",
+      "stderr_tail": ""
+    }
+  ],
+  "public_sha256": {
+    "data/products.csv": "7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c",
+    "data/products_publish.csv": "7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c",
+    "preview/data.js": "8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a",
+    "docs/data.js": "8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a"
+  },
+  "final_gate": {
+    "pass": true,
+    "day": "2026-09-13",
+    "gate_mode": "release",
+    "rows": 305,
+    "counts": {
+      "life_hikawadai": 64,
+      "ok_kamiitabashi": 46,
+      "comodi_sakuragawa": 31,
+      "belx_itabashi_nakadai": 164
+    },
+    "active_counts": {
+      "life_hikawadai": 40,
+      "ok_kamiitabashi": 46,
+      "comodi_sakuragawa": 12,
+      "belx_itabashi_nakadai": 39
+    },
+    "errors": [],
+    "row_validation": {
+      "pass": true,
+      "rows": 305,
+      "counts": {
+        "life_hikawadai": 64,
+        "ok_kamiitabashi": 46,
+        "comodi_sakuragawa": 31,
+        "belx_itabashi_nakadai": 164
+      },
+      "active_counts": {
+        "life_hikawadai": 40,
+        "ok_kamiitabashi": 46,
+        "comodi_sakuragawa": 12,
+        "belx_itabashi_nakadai": 39
+      },
+      "errors": [],
+      "details": {
+        "household_allowed_count": 5,
+        "household_samples": [
+          [
+            30,
+            "大王製紙 エリエール トイレットティシュー（シングル／ダブル）"
+          ],
+          [
+            40,
+            "P&G ボールド ジェル 詰替超特大"
+          ],
+          [
+            106,
+            "デリブティック ティシューペーパー"
+          ],
+          [
+            108,
+            "JNTLコンシューマーヘルス 薬用リステリン トータルケアプラス"
+          ],
+          [
+            110,
+            "レキットベンキーザー フィニッシュ 凝縮パワーキューブ"
+          ]
+        ],
+        "bad_price": [],
+        "blank": [],
+        "duplicates": [],
+        "bad_dates": [],
+        "missing_provenance": []
+      }
+    },
+    "runtime_validation": null,
+    "artifacts": {
+      "counts": [
+        305,
+        305,
+        305,
+        305
+      ],
+      "sha256": {
+        "data/products.csv": "7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c",
+        "data/products_publish.csv": "7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c",
+        "preview/data.js": "8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a",
+        "docs/data.js": "8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a"
+      }
+    },
+    "dom": {
+      "pass": true,
+      "engine": "chromium",
+      "total": 305,
+      "expected_total": 305,
+      "store_counts": {
+        "life_hikawadai": 64,
+        "ok_kamiitabashi": 46,
+        "comodi_sakuragawa": 31,
+        "belx_itabashi_nakadai": 164
+      },
+      "expected_store_counts": {
+        "life_hikawadai": 64,
+        "ok_kamiitabashi": 46,
+        "comodi_sakuragawa": 31,
+        "belx_itabashi_nakadai": 164
+      },
+      "date_buttons": [
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18"
+      ],
+      "date_counts": {
+        "2026-09-12": 37,
+        "2026-09-13": 48,
+        "2026-09-14": 32,
+        "2026-09-15": 39,
+        "2026-09-16": 16,
+        "2026-09-17": 18,
+        "2026-09-18": 18
+      },
+      "expected_date_counts": {
+        "2026-09-12": 37,
+        "2026-09-13": 48,
+        "2026-09-14": 32,
+        "2026-09-15": 39,
+        "2026-09-16": 16,
+        "2026-09-17": 18,
+        "2026-09-18": 18
+      },
+      "missing_date_buttons": []
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "pass": true,
+  "day": "2026-09-13",
+  "gate_mode": "release",
+  "rows": 305,
+  "counts": {
+    "life_hikawadai": 64,
+    "ok_kamiitabashi": 46,
+    "comodi_sakuragawa": 31,
+    "belx_itabashi_nakadai": 164
+  },
+  "active_counts": {
+    "life_hikawadai": 40,
+    "ok_kamiitabashi": 46,
+    "comodi_sakuragawa": 12,
+    "belx_itabashi_nakadai": 39
+  },
+  "errors": [],
+  "row_validation": {
+    "pass": true,
+    "rows": 305,
+    "counts": {
+      "life_hikawadai": 64,
+      "ok_kamiitabashi": 46,
+      "comodi_sakuragawa": 31,
+      "belx_itabashi_nakadai": 164
+    },
+    "active_counts": {
+      "life_hikawadai": 40,
+      "ok_kamiitabashi": 46,
+      "comodi_sakuragawa": 12,
+      "belx_itabashi_nakadai": 39
+    },
+    "errors": [],
+    "details": {
+      "household_allowed_count": 5,
+      "household_samples": [
+        [
+          30,
+          "大王製紙 エリエール トイレットティシュー（シングル／ダブル）"
+        ],
+        [
+          40,
+          "P&G ボールド ジェル 詰替超特大"
+        ],
+        [
+          106,
+          "デリブティック ティシューペーパー"
+        ],
+        [
+          108,
+          "JNTLコンシューマーヘルス 薬用リステリン トータルケアプラス"
+        ],
+        [
+          110,
+          "レキットベンキーザー フィニッシュ 凝縮パワーキューブ"
+        ]
+      ],
+      "bad_price": [],
+      "blank": [],
+      "duplicates": [],
+      "bad_dates": [],
+      "missing_provenance": []
+    }
+  },
+  "runtime_validation": null,
+  "artifacts": {
+    "counts": [
+      305,
+      305,
+      305,
+      305
+    ],
+    "sha256": {
+      "data/products.csv": "7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c",
+      "data/products_publish.csv": "7f8e3476b627eca6603892ba43e824578a7427a170b75d74175b6be1fe545b7c",
+      "preview/data.js": "8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a",
+      "docs/data.js": "8ab4404e4d14cb32f2b7ba18981e951fec535196748acc3e8cfda2b596bbb94a"
+    }
+  },
+  "dom": {
+    "pass": true,
+    "engine": "chromium",
+    "total": 305,
+    "expected_total": 305,
+    "store_counts": {
+      "life_hikawadai": 64,
+      "ok_kamiitabashi": 46,
+      "comodi_sakuragawa": 31,
+      "belx_itabashi_nakadai": 164
+    },
+    "expected_store_counts": {
+      "life_hikawadai": 64,
+      "ok_kamiitabashi": 46,
+      "comodi_sakuragawa": 31,
+      "belx_itabashi_nakadai": 164
+    },
+    "date_buttons": [
+      "2026-09-12",
+      "2026-09-13",
+      "2026-09-14",
+      "2026-09-15",
+      "2026-09-16",
+      "2026-09-17",
+      "2026-09-18"
+    ],
+    "date_counts": {
+      "2026-09-12": 37,
+      "2026-09-13": 48,
+      "2026-09-14": 32,
+      "2026-09-15": 39,
+      "2026-09-16": 16,
+      "2026-09-17": 18,
+      "2026-09-18": 18
+    },
+    "expected_date_counts": {
+      "2026-09-12": 37,
+      "2026-09-13": 48,
+      "2026-09-14": 32,
+      "2026-09-15": 39,
+      "2026-09-16": 16,
+      "2026-09-17": 18,
+      "2026-09-18": 18
+    },
+    "missing_date_buttons": []
+  }
+}

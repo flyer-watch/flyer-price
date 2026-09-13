@@ -1,0 +1,194 @@
+{
+  "anchors": 16,
+  "cells": 16,
+  "metrics": {
+    "cells": 16,
+    "full_image_resolved": 9,
+    "fallback_jobs": 7,
+    "fallback_batch_ocr_calls": 2,
+    "fallback_targeted_jobs": 3,
+    "fallback_targeted_attempts": 11
+  },
+  "name_correct": 16,
+  "name_total": 16,
+  "name_pass": true,
+  "elapsed_sec": 11.49,
+  "rows": [
+    {
+      "panel_id": "P02",
+      "expected": "米国産 豚肉ロース切身",
+      "actual": "米国産 豚肉ロース切身",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 63.888888888888886,
+      "margin": 41.269841269841265,
+      "pass": true,
+      "ocr_text": "(Hil) の 1 ・ マ ie 1% BFI-T-D PRE) (Se RIN 5109: 米国 % ロー *s 映 切 豚肉 ス"
+    },
+    {
+      "panel_id": "P03",
+      "expected": "スターセレクト ロースハム4連／ハーフベーコン4連",
+      "actual": "スターセレクト ロースハム4連／ハーフベーコン4連",
+      "status": "dictionary_resolved",
+      "stage": "targeted_gray_psm6_x5",
+      "score": 89.88854489164086,
+      "margin": 40.0610595115239,
+      "pass": true,
+      "ocr_text": "a II\n9-ま      っ   oc  o  o     がーテスポマント\n\n— a.       mace\n\n~   ew Dee   sy Ez    が>     ,\n\n回 eee |\nスターセレクト        |   レベーッ 1i\n・ロースハム4連    aon\n\n34gXx4(100gH1919) as BE,         円\n・ハーフベーコン4連\n\n32g x 4(100g雪り203円)      (税込名279円)"
+    },
+    {
+      "panel_id": "P04",
+      "expected": "長ねぎ（2本入）",
+      "actual": "長ねぎ（2本入）",
+      "status": "dictionary_resolved",
+      "stage": "batch_clahe",
+      "score": 99.0,
+      "margin": 86.77777777777777,
+      "pass": true,
+      "ocr_text": "な (北海 秋田 産 ど ) 9 ね ぎ (2 本 入 】 長 \"21585 (#2170)"
+    },
+    {
+      "panel_id": "P05",
+      "expected": "キャベツ",
+      "actual": "キャベツ",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 75.0,
+      "margin": 50.0,
+      "pass": true,
+      "ocr_text": "本 ジュ | HEREJAMEHE) パー キヤ ベツ 潮 1 #1585 470 (税込 ) 円"
+    },
+    {
+      "panel_id": "P06",
+      "expected": "ナガノパープル（パック）",
+      "actual": "ナガノパープル（パック）",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 66.66666666666666,
+      "margin": 33.33333333333332,
+      "pass": true,
+      "ocr_text": "が 区 こと 本 な く られ る 食べ な す シー ぶどう ジュ で 産 〉 (長野 ノ | ナカ ブル パー (バック) 1 ク パッ #990n)|\" 人 8 1,069m) (64"
+    },
+    {
+      "panel_id": "P07",
+      "expected": "甘熟王バナナ",
+      "actual": "甘熟王バナナ",
+      "status": "dictionary_resolved",
+      "stage": "batch_gray",
+      "score": 52.272727272727266,
+      "margin": 38.101787101787096,
+      "pass": true,
+      "ocr_text": "iN バナナ 208: 1a a (e2224—)"
+    },
+    {
+      "panel_id": "P08",
+      "expected": "エビチリソース",
+      "actual": "エビチリソース",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 70.0,
+      "margin": 33.51432880844645,
+      "pass": true,
+      "ocr_text": "より に レジ て off 人 き 十 % ー Bs エピ チリ 198』 ビ ソ ェ チワ Cie An 1 パック #2213)"
+    },
+    {
+      "panel_id": "P09",
+      "expected": "日本食研 トンテキの素",
+      "actual": "日本食研 トンテキの素",
+      "status": "dictionary_resolved",
+      "stage": "batch_clahe",
+      "score": 47.421052631578945,
+      "margin": 5.754385964912274,
+      "pass": true,
+      "ocr_text": "ッッ tached ドコ etl ロ 当 り 1009 (83211/7—) =a ォ o ジテ 179n テキ トン の 半 sss (10093) 189) 素 (#2193)"
+    },
+    {
+      "panel_id": "P10",
+      "expected": "ニッポンハム サラダチキン3連（ロースト／ハーブ）",
+      "actual": "ニッポンハム サラダチキン3連（ロースト／ハーブ）",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 71.39181286549707,
+      "margin": 21.391812865497073,
+      "pass": true,
+      "ocr_text": "- as 0: 7 <5 し ボン ハバ ニッ yA サラ Bie 4 ダチ キン 連 3 当 り 各 173 円 ) (100g ト ダチ キン サ ラ ロ ス ・ ー る 幅 税込 279 Be IN—-7F3 150¢"
+    },
+    {
+      "panel_id": "P11",
+      "expected": "明治 おいしい牛乳／おいしい低脂肪乳",
+      "actual": "明治 おいしい牛乳／おいしい低脂肪乳",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 43.61413043478261,
+      "margin": 31.471273291925463,
+      "pass": true,
+      "ocr_text": "上 い お 牛乳 いし 和 ・ wa ae i: MERA, [BOUL | 性 ] # #&300m! ss258n も し! | $% | Site 8 円) (A827"
+    },
+    {
+      "panel_id": "P12",
+      "expected": "雪印メグミルク ナチュレ恵 ヨーグルト（プレーン／脂肪0）",
+      "actual": "雪印メグミルク ナチュレ恵 ヨーグルト（プレーン／脂肪0）",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 44.113398796325626,
+      "margin": 24.113398796325626,
+      "pass": true,
+      "ocr_text": "ism SIV, BMAD +FALE SS ms EG, グル ト zws ふ ヨー : ン 1 レー プ ・ iors & 0 脂肪 1719) (iA"
+    },
+    {
+      "panel_id": "P13",
+      "expected": "フードレーベル 牛角キムチ",
+      "actual": "フードレーベル 牛角キムチ",
+      "status": "dictionary_resolved",
+      "stage": "targeted_otsu_psm6_x5",
+      "score": 50.0,
+      "margin": 25.0,
+      "pass": true,
+      "ocr_text": "a\n@=) |\n\n»\n\nフードレニーベル       P\n3309 i Sa)\n09342784) i\nnn"
+    },
+    {
+      "panel_id": "P14",
+      "expected": "伊藤園 香り薫るむぎ茶 ティーバッグ",
+      "actual": "伊藤園 香り薫るむぎ茶 ティーバッグ",
+      "status": "dictionary_resolved",
+      "stage": "targeted_otsu_psm6_x5",
+      "score": 46.666666666666664,
+      "margin": 13.333333333333329,
+      "pass": true,
+      "ocr_text": "=\neee  きり順るむき E\nwar) テイーバッグ |シン\nOre  S4tA       @\net: 1895;\nTw.          (2342044)\na"
+    },
+    {
+      "panel_id": "P15",
+      "expected": "昭和 スパゲッティ 1.6mm／1.4mm",
+      "actual": "昭和 スパゲッティ 1.6mm／1.4mm",
+      "status": "dictionary_resolved",
+      "stage": "batch_clahe",
+      "score": 66.41341991341992,
+      "margin": 37.246753246753244,
+      "pass": true,
+      "ocr_text": "スパ タッ < w1.6mmi 1.4m sg199n 1 (#28214)"
+    },
+    {
+      "panel_id": "P17",
+      "expected": "キッチンペーパー",
+      "actual": "キッチンペーパー",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 83.33333333333333,
+      "margin": 45.83333333333333,
+      "pass": true,
+      "ocr_text": "BRAM BK WoC WEE) BIAR2ALT ~ a さ oe Sh woe 円) gee ま 『Ut 5 キッ チン ベー パー (160 )X3 80 組 枚 ク 個 パッ 228: Bt 価格 (#34250"
+    },
+    {
+      "panel_id": "P18",
+      "expected": "P&G アリエールジェル 詰替超特大",
+      "actual": "P&G アリエールジェル 詰替超特大",
+      "status": "dictionary_resolved",
+      "stage": "full_image",
+      "score": 80.0,
+      "margin": 55.0,
+      "pass": true,
+      "ocr_text": "MAST RA: BK FSR = | EE — * こ そ 根 FE の 2 アリ エル P&G アリ ル ル エー ジェ 超 大 特 e2 替 庄 MRBADRGSRANCAVET 328: 449. Gtk (A360)"
+    }
+  ]
+}

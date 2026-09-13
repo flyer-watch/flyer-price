@@ -1,0 +1,54 @@
+{
+  "version": "v1.9",
+  "checks": {
+    "dedupe": true,
+    "percent_only_excluded": true,
+    "household_excluded": true,
+    "floor_given_inc": true,
+    "calc_and_floor_inc": true,
+    "zero_price_excluded": true,
+    "real_53_to_49": true,
+    "real_no_household": true,
+    "real_all_included_integer": true,
+    "real_no_duplicates": true,
+    "real_all_positive": true
+  },
+  "synthetic_output": [
+    {
+      "store_id": "s",
+      "sale_start": "2026-09-11",
+      "sale_end": "2026-09-11",
+      "product_name": "食品A",
+      "specification": "1個",
+      "price_ex_tax_yen": 100,
+      "price_in_tax_yen": 108,
+      "tax_rate": 0.08,
+      "category": "食品"
+    },
+    {
+      "store_id": "s",
+      "sale_start": "2026-09-11",
+      "sale_end": "2026-09-11",
+      "product_name": "食品B",
+      "specification": "",
+      "price_ex_tax_yen": 199,
+      "price_in_tax_yen": 214,
+      "tax_rate": 0.08,
+      "category": "食品"
+    },
+    {
+      "store_id": "s",
+      "sale_start": "2026-09-11",
+      "sale_end": "2026-09-11",
+      "product_name": "食品C",
+      "specification": "",
+      "price_ex_tax_yen": 199,
+      "price_in_tax_yen": 214,
+      "tax_rate": 0.08,
+      "category": "食品"
+    }
+  ],
+  "real_input": 53,
+  "real_output": 49,
+  "pass": true
+}

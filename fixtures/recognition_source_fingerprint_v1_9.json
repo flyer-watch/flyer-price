@@ -1,0 +1,21 @@
+{
+  "fingerprint_version": "recognition-source-sha256-v1",
+  "baseline_version": "v1.9",
+  "files": {
+    "anchor_panel_inference.py": "f4a6f9f06b6bf365a67f94ac417e254f698892190ac8b82337c969b0acd9e1db",
+    "batch_name_recovery.py": "af33e9b967181832d9379d5a7aadcbc77d6c6a166b7d54d1ef989003a75653d6",
+    "dense_grid_inference.py": "0960bdfd2c8c0298c4d12192848d3767cbf5831c7057e8a65174c5e8671f4af9",
+    "generic_price_detector.py": "31c895a893eeb3e170b15c46e5fc78ec238735b299ebbc3a796a23540432384a",
+    "hybrid_name_recovery.py": "3f07f7c4e2c3dc88f2419d162e5ac0a117c4b6ca116bd54cc75c3cd8c8a33c20",
+    "name_resolution.py": "2f83f20b47060326758959d5a24bd9d801c7fc8491190d4099401817185f57f6",
+    "output_policy.py": "306e3036cd502f441e6852cb14c7190504e52ca13d30ec24d44c53512638df9a",
+    "partitioned_temporal_regions.py": "09980cdd2ec659498b5800b6de13213fe31a0a1cb8b70dc359510f27a6a87487",
+    "price_policy.py": "f9e6148883b80597737da9a4f8f2cae284783b058dad63f77c246e1f1b478656",
+    "product_dictionary_matcher.py": "df14ff8bcc7b8ea3768e0cd077cdc9fc71a703b00c4de638380e8939eb707d85",
+    "source_adapter.py": "44ee503c79d95864da3310380112504a8440c6e8e09c9e0c49b66300afa5408f",
+    "temporal_region_inference.py": "43510e230cf7b5baf17136a3e12a285007c77a09de5b6c6efe646222b64d28a5",
+    "temporal_rules.py": "0fdbca88fdeae2c21efce83ccea7118557fdda2dd9a48f2d49433f00d9397324",
+    "uniform_group_children.py": "75db25748213acfae7a08efe9edbaf1e432e3a9efd258262ae2b2c30ab0146b3",
+    "uniform_price_detector.py": "534324155def633f0e610b008805036ac408e86eba7a7e34696d1f4872ef1fce"
+  }
+}
